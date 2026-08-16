@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { ExternalLink, RefreshCw, GitBranch, Star, MessageSquare, Clock, Filter } from "lucide-react";
+import { ExternalLink, GitBranch, Star, MessageSquare, Clock, Filter } from "lucide-react";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
+const DATA_URL = "/opportunities.json";
 
 interface Opportunity {
   title: string;
@@ -32,7 +32,6 @@ interface Stats {
   next_update: string;
   by_category: Record<string, number>;
   by_difficulty: Record<string, number>;
-  top_orgs: Record<string, number>;
 }
 
 const DIFFICULTY_COLORS: Record<string, string> = {
@@ -54,21 +53,13 @@ export default function App() {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const [oppsRes, statsRes] = await Promise.all([
-        axios.get(`${API_URL}/api/opportunities`),
-        axios.get(`${API_URL}/api/stats`),
-      ]);
-      setOpportunities(oppsRes.data.opportunities || []);
-      setStats(statsRes.data);
+      const res = await axios.get(DATA_URL);
+      setOpportunities(res.data.opportunities || []);
+      setStats(res.data);
     } catch (e) {
       console.error(e);
     }
     setLoading(false);
-  };
-
-  const handleRefresh = async () => {
-    await axios.get(`${API_URL}/api/refresh`);
-    setTimeout(fetchData, 2000);
   };
 
   useEffect(() => {
@@ -85,6 +76,12 @@ export default function App() {
 
   const categories = Array.from(new Set(opportunities.map((o) => o.category)));
 
+  const byCategory: Record<string, number> = {};
+  opportunities.forEach((o) => {
+    const label = o.category_label || o.category;
+    byCategory[label] = (byCategory[label] || 0) + 1;
+  });
+
   return (
     <div className="min-h-screen bg-gray-950 text-white">
       <div className="bg-gray-900 border-b border-gray-800 px-6 py-4">
@@ -95,28 +92,17 @@ export default function App() {
               {stats?.total || 0} opportunities from top AI organizations
             </p>
           </div>
-          <div className="flex items-center gap-4">
-            {stats?.last_updated && (
-              <div className="text-right text-xs text-gray-500">
-                <div>Updated: {stats.last_updated}</div>
-                <div>Next: {stats.next_update}</div>
-              </div>
-            )}
-            <button
-              onClick={handleRefresh}
-              className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-lg text-sm font-medium transition"
-            >
-              <RefreshCw size={16} />
-              Refresh
-            </button>
+          <div className="text-right text-xs text-gray-500">
+            {stats?.last_updated && <div>Updated: {stats.last_updated}</div>}
+            {stats?.next_update && <div>Next: {stats.next_update}</div>}
           </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 py-6">
-        {stats && (
+        {Object.keys(byCategory).length > 0 && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-            {Object.entries(stats.by_category).slice(0, 4).map(([cat, count]) => (
+            {Object.entries(byCategory).slice(0, 4).map(([cat, count]) => (
               <div key={cat} className="bg-gray-900 rounded-xl p-4 border border-gray-800">
                 <div className="text-2xl font-bold text-indigo-400">{count}</div>
                 <div className="text-xs text-gray-400 mt-1">{cat}</div>
@@ -157,7 +143,7 @@ export default function App() {
 
         {loading && (
           <div className="text-center py-20 text-gray-400">
-            <RefreshCw className="animate-spin mx-auto mb-4" size={32} />
+            <div className="animate-spin mx-auto mb-4 w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full"></div>
             <p>Loading opportunities...</p>
           </div>
         )}
@@ -166,13 +152,7 @@ export default function App() {
           <div className="text-center py-20 text-gray-400">
             <GitBranch className="mx-auto mb-4 opacity-30" size={48} />
             <p className="text-lg">No opportunities found yet</p>
-            <p className="text-sm mt-2">Backend is scanning GitHub... check back in a few minutes</p>
-            <button
-              onClick={handleRefresh}
-              className="mt-4 bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-lg text-sm"
-            >
-              Trigger Scan
-            </button>
+            <p className="text-sm mt-2">Data updates every 5 hours automatically</p>
           </div>
         )}
 

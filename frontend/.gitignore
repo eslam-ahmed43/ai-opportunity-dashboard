@@ -1,0 +1,4 @@
+backend/.env
+backend/venv/
+backend/opportunities.json
+frontend/node_modules/
