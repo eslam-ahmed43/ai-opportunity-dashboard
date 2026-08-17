@@ -1,1 +1,627 @@
-{"last_updated": null, "next_update": null, "total": 0, "opportunities": []}
+{
+  "last_updated": "2026-08-17 15:08:58",
+  "next_update": "2026-08-17 20:08:58",
+  "total": 28,
+  "opportunities": [
+    {
+      "title": "Add RWKV-7 (Goose)",
+      "url": "https://github.com/huggingface/transformers/issues/47787",
+      "repo": "huggingface/transformers",
+      "stars": 164181,
+      "labels": [],
+      "comments": 13,
+      "created_at": "2026-08-05",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Add RWKV-7 (Goose) to address the missing model/architecture.",
+        "first_step": "Review the RWKV-7 (Goose) model and its implementation.",
+        "career_signal": "This issue affects AI developers by highlighting the need for a specific model, which can impact the development of AI-related projects and job opportunities."
+      },
+      "score": 595.7
+    },
+    {
+      "title": "Fast (Rust-backed) tokenizers aren't thread-safe anymore",
+      "url": "https://github.com/huggingface/transformers/issues/47085",
+      "repo": "huggingface/transformers",
+      "stars": 164181,
+      "labels": [
+        "bug"
+      ],
+      "comments": 9,
+      "created_at": "2026-07-05",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Fast (Rust-backed) tokenizers aren't thread-safe anymore",
+        "first_step": "Review the code for thread safety issues",
+        "career_signal": "This issue affects the performance of concurrent AI applications"
+      },
+      "score": 591.7
+    },
+    {
+      "title": "Assisted/speculative decoding generates past an EOS that is accepted mid-block",
+      "url": "https://github.com/huggingface/transformers/issues/47912",
+      "repo": "huggingface/transformers",
+      "stars": 164181,
+      "labels": [],
+      "comments": 7,
+      "created_at": "2026-08-12",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Assisted/speculative decoding generates past an EOS that is accepted mid-block",
+        "first_step": "Analyze the decoding process to identify the point where the EOS is accepted mid-block",
+        "career_signal": "This issue highlights the importance of understanding decoding mechanisms in AI development, which can impact the performance and reliability of AI models in real-world applications."
+      },
+      "score": 589.7
+    },
+    {
+      "title": "interrupt() inside a tool is reported as a `tool-error` on the tools stream (structured Interrupt lost)",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8218",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39845,
+      "labels": [
+        "external"
+      ],
+      "comments": 10,
+      "created_at": "2026-06-29",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "interrupt() inside a tool is reported as a `tool-error` on the tools stream (structured Interrupt lost)",
+        "first_step": "Investigate the interrupt() function in the tool and understand its purpose",
+        "career_signal": "This issue affects the reliability of AI tools and may impact the productivity of AI developers"
+      },
+      "score": 579.7
+    },
+    {
+      "title": "candle-datasets ssl",
+      "url": "https://github.com/huggingface/candle/issues/3687",
+      "repo": "huggingface/candle",
+      "stars": 20914,
+      "labels": [],
+      "comments": 10,
+      "created_at": "2026-06-30",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "candle-datasets ssl is a missing model/architecture issue",
+        "first_step": "read the issue description to understand the problem",
+        "career_signal": "this issue highlights the importance of dataset security in AI development"
+      },
+      "score": 578.2
+    },
+    {
+      "title": "InMemoryStore upsert overwrites created_at on existing keys",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8340",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39845,
+      "labels": [
+        "external"
+      ],
+      "comments": 7,
+      "created_at": "2026-07-15",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "InMemoryStore upsert overwrites created_at on existing keys",
+        "first_step": "Review the InMemoryStore implementation to understand the issue",
+        "career_signal": "This issue highlights the importance of data integrity in AI systems, which is a key concern for AI developers and a valuable skill to have in the industry"
+      },
+      "score": 576.7
+    },
+    {
+      "title": "DeltaChannel replay order diverges from live execution order for parallel-superstep writes, corrupting continued-thread state",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8382",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39845,
+      "labels": [
+        "external"
+      ],
+      "comments": 7,
+      "created_at": "2026-07-19",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "DeltaChannel replay order diverges from live execution order for parallel-superstep writes, corrupting continued-thread state",
+        "first_step": "Identify the root cause of the issue by analyzing the DeltaChannel implementation and its interaction with parallel-superstep writes",
+        "career_signal": "This issue highlights the importance of considering concurrent execution and thread safety in AI system design, which is crucial for maintaining the integrity of AI models and ensuring reliable performance in production environments"
+      },
+      "score": 576.7
+    },
+    {
+      "title": "TypeError in _dill.py _batch_setitems with Python 3.14",
+      "url": "https://github.com/huggingface/datasets/issues/8373",
+      "repo": "huggingface/datasets",
+      "stars": 21840,
+      "labels": [],
+      "comments": 8,
+      "created_at": "2026-07-29",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "TypeError in _dill.py _batch_setitems with Python 3.14",
+        "first_step": "Check the Python version used in the project and ensure it is compatible with Python 3.14",
+        "career_signal": "This issue highlights the importance of keeping up-to-date with the latest Python versions and their potential impact on AI research and development"
+      },
+      "score": 576.3
+    },
+    {
+      "title": "Scalar resume is accepted for multiple interrupts in one subgraph task",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8579",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39850,
+      "labels": [
+        "external"
+      ],
+      "comments": 5,
+      "created_at": "2026-08-09",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "A scalar resume is accepted for multiple interrupts in one subgraph task, which may have implications for AI job applications.",
+        "first_step": "Read the title and understand the context of the issue.",
+        "career_signal": "This issue highlights the importance of handling multiple interrupts in AI job applications, which can be a critical skill for developers."
+      },
+      "score": 574.7
+    },
+    {
+      "title": "Subagent HITL interrupts fail to route to parent tool call in ACP",
+      "url": "https://github.com/langchain-ai/deepagents/issues/4033",
+      "repo": "langchain-ai/deepagents",
+      "stars": 27847,
+      "labels": [
+        "bug",
+        "acp",
+        "external"
+      ],
+      "comments": 5,
+      "created_at": "2026-06-16",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Subagent HITL interrupts fail to route to parent tool call in ACP",
+        "first_step": "Analyze the ACP routing mechanism to identify the cause of the failure",
+        "career_signal": "This issue highlights the importance of robust routing mechanisms in AI systems, which can impact the reliability and efficiency of AI job performance"
+      },
+      "score": 573.8
+    },
+    {
+      "title": "Glob rejects allowed absolute patterns when path is omitted under filesystem permissions",
+      "url": "https://github.com/langchain-ai/deepagents/issues/4882",
+      "repo": "langchain-ai/deepagents",
+      "stars": 27847,
+      "labels": [
+        "bug",
+        "deepagents",
+        "external"
+      ],
+      "comments": 5,
+      "created_at": "2026-07-21",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The issue is about Glob rejecting allowed absolute patterns when the path is omitted under filesystem permissions, which could impact AI job implementation.",
+        "first_step": "Review the Glob library documentation to understand the behavior of absolute patterns under filesystem permissions.",
+        "career_signal": "This issue highlights the importance of understanding file system permissions in AI job implementation, as it can affect the accuracy and reliability of AI models."
+      },
+      "score": 573.8
+    },
+    {
+      "title": "BaseSandbox.grep path globs fail because the inline Python command is not shell-safe",
+      "url": "https://github.com/langchain-ai/deepagents/issues/5112",
+      "repo": "langchain-ai/deepagents",
+      "stars": 27847,
+      "labels": [
+        "bug",
+        "deepagents",
+        "external"
+      ],
+      "comments": 5,
+      "created_at": "2026-07-28",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The inline Python command in BaseSandbox.grep is not shell-safe, causing path globs to fail.",
+        "first_step": "Check the BaseSandbox.grep file for any inline Python commands and replace them with shell-safe alternatives.",
+        "career_signal": "This issue highlights the importance of shell safety in AI development, as it can lead to unexpected behavior and errors in critical code paths."
+      },
+      "score": 573.8
+    },
+    {
+      "title": "BinaryOperatorAggregate.__eq__ raises AttributeError for reducers without __name__ (e.g. functools.partial, callable instances) when a reducer field is shared across schemas",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8082",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39853,
+      "labels": [
+        "external"
+      ],
+      "comments": 4,
+      "created_at": "2026-06-15",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "BinaryOperatorAggregate.__eq__ raises AttributeError for reducers without __name__ (e.g. functools.partial, callable instances) when a reducer field is shared across schemas",
+        "first_step": "Identify the specific use case where the error occurs, e.g. when using functools.partial or callable instances as reducers",
+        "career_signal": "This issue highlights the importance of considering edge cases in reducer implementations, particularly when working with complex data structures or shared schema fields, which can impact the reliability and maintainability of AI models and their deployment in production environments."
+      },
+      "score": 573.7
+    },
+    {
+      "title": "PostgresSaver/AsyncPostgresSaver incompatible with CockroachDB: unaliased jsonb_each_text SRF + multidimensional array serialization",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8620",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39853,
+      "labels": [
+        "external"
+      ],
+      "comments": 4,
+      "created_at": "2026-08-14",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "PostgresSaver/AsyncPostgresSaver incompatible with CockroachDB: unaliased jsonb_each_text SRF + multidimensional array serialization",
+        "first_step": "Analyze the incompatibility issue between PostgresSaver/AsyncPostgresSaver and CockroachDB",
+        "career_signal": "This issue highlights the importance of database compatibility in AI development, requiring developers to consider the nuances of different database systems when implementing asynchronous data storage solutions."
+      },
+      "score": 573.7
+    },
+    {
+      "title": "[OpenVINO] Support Gemma 4 12B with model type gemma4_unified",
+      "url": "https://github.com/huggingface/optimum-intel/issues/1764",
+      "repo": "huggingface/optimum-intel",
+      "stars": 614,
+      "labels": [],
+      "comments": 7,
+      "created_at": "2026-06-05",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The issue is about adding support for Gemma 4 12B in OpenVINO with a specific model type.",
+        "first_step": "Review the OpenVINO documentation to see if there are any existing solutions or workarounds for Gemma 4 12B.",
+        "career_signal": "This issue matters for AI jobs because it affects the development and deployment of AI models on specific hardware platforms."
+      },
+      "score": 573.7
+    },
+    {
+      "title": "[BUG] Adding a trace with array-shaped inputs (OTel GenAI convention) to an evaluation dataset fails with a 500 INTERNAL_ERROR",
+      "url": "https://github.com/mlflow/mlflow/issues/24709",
+      "repo": "mlflow/mlflow",
+      "stars": 27544,
+      "labels": [],
+      "comments": 2,
+      "created_at": "2026-07-28",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Adding a trace with array-shaped inputs (OTel GenAI convention) to an evaluation dataset fails with a 500 INTERNAL_ERROR",
+        "first_step": "Identify the cause of the 500 INTERNAL_ERROR when adding a trace with array-shaped inputs to an evaluation dataset",
+        "career_signal": "This issue highlights the importance of robust error handling in AI development, particularly when working with complex data structures like array-shaped inputs, and demonstrates the need for developers to be able to identify and resolve such errors efficiently, which is a critical skill for AI jobs"
+      },
+      "score": 573.2
+    },
+    {
+      "title": "Add support for Gradio 6",
+      "url": "https://github.com/gradio-app/fastrtc/issues/428",
+      "repo": "gradio-app/fastrtc",
+      "stars": 0,
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-06-04",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Add support for Gradio 6",
+        "first_step": "Identify the changes required in the code to support Gradio 6",
+        "career_signal": "This issue affects AI developers who use Gradio for building and deploying AI models, and highlights the importance of staying up-to-date with the latest library versions to ensure compatibility and optimal performance."
+      },
+      "score": 570.4
+    },
+    {
+      "title": "LoRA fine-tuning of an FP8 checkpoint is blocked: `get_peft_model` does not clear `validate_quantization_for_training` (QuantizationMethod.FP8)",
+      "url": "https://github.com/huggingface/transformers/issues/46736",
+      "repo": "huggingface/transformers",
+      "stars": 164181,
+      "labels": [],
+      "comments": 7,
+      "created_at": "2026-06-17",
+      "category": "onnx_export",
+      "category_label": "ONNX/Export",
+      "category_color": "#10b981",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "LoRA fine-tuning of an FP8 checkpoint is blocked due to an issue with the `get_peft_model` function not clearing the `validate_quantization_for_training` flag when using QuantizationMethod.FP8.",
+        "first_step": "Investigate the `get_peft_model` function to understand why it's not clearing the `validate_quantization_for_training` flag when using QuantizationMethod.FP8.",
+        "career_signal": "This issue highlights the importance of proper quantization and fine-tuning techniques in AI model development, which can impact the performance and efficiency of AI models in real-world applications."
+      },
+      "score": 531.4
+    },
+    {
+      "title": "Slow model download speed from Hugging Face Hub (1.11 GB model takes ~20 minutes on multiple devices)",
+      "url": "https://github.com/huggingface/huggingface_hub/issues/4528",
+      "repo": "huggingface/huggingface_hub",
+      "stars": 3813,
+      "labels": [
+        "bug"
+      ],
+      "comments": 13,
+      "created_at": "2026-07-14",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Users are experiencing slow model download speeds from Hugging Face Hub, with a 1.11 GB model taking around 20 minutes to download on multiple devices.",
+        "first_step": "Investigate the network connection and ensure a stable and fast internet connection.",
+        "career_signal": "This issue highlights the importance of efficient data transfer in AI development, which is crucial for meeting project deadlines and delivering high-quality results."
+      },
+      "score": 521.6
+    },
+    {
+      "title": "[BUG] Tracking server OOM-killed by unbounded `GET /api/2.0/mlflow/metrics/get-history` for long metric series",
+      "url": "https://github.com/mlflow/mlflow/issues/23702",
+      "repo": "mlflow/mlflow",
+      "stars": 27544,
+      "labels": [
+        "bug",
+        "area/tracking"
+      ],
+      "comments": 2,
+      "created_at": "2026-05-30",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The tracking server is experiencing out-of-memory issues due to an unbounded GET request for long metric series.",
+        "first_step": "Investigate the root cause of the unbounded GET request and implement rate limiting or pagination to prevent excessive resource usage.",
+        "career_signal": "This issue highlights the importance of designing scalable and efficient APIs for AI applications, which can have a significant impact on the performance and reliability of machine learning workflows."
+      },
+      "score": 514.9
+    },
+    {
+      "title": "feat(exa): add integration header and update search types",
+      "url": "https://github.com/langchain-ai/langchain/issues/37701",
+      "repo": "langchain-ai/langchain",
+      "stars": 144376,
+      "labels": [
+        "feature request",
+        "exa",
+        "external"
+      ],
+      "comments": 6,
+      "created_at": "2026-05-26",
+      "category": "missing_integration",
+      "category_label": "Missing Integration",
+      "category_color": "#3b82f6",
+      "career_weight": 80,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 499.7
+    },
+    {
+      "title": "[FR] Support dynamic agent root span identification for evaluation in nested traces",
+      "url": "https://github.com/mlflow/mlflow/issues/23590",
+      "repo": "mlflow/mlflow",
+      "stars": 27541,
+      "labels": [
+        "enhancement",
+        "area/evaluation",
+        "domain/genai"
+      ],
+      "comments": 10,
+      "created_at": "2026-05-26",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 491.2
+    },
+    {
+      "title": "Proposal: Benchmarking on different PEFT techniques",
+      "url": "https://github.com/huggingface/peft/issues/3363",
+      "repo": "huggingface/peft",
+      "stars": 21557,
+      "labels": [],
+      "comments": 9,
+      "created_at": "2026-06-27",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 489.8
+    },
+    {
+      "title": "[FR] Add new scorer: SubGoalCompletion scorer for per-subgoal LLM-judge evaluation of individual traces",
+      "url": "https://github.com/mlflow/mlflow/issues/24442",
+      "repo": "mlflow/mlflow",
+      "stars": 27541,
+      "labels": [
+        "enhancement",
+        "area/scoring",
+        "area/evaluation",
+        "domain/genai"
+      ],
+      "comments": 7,
+      "created_at": "2026-07-15",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 488.2
+    },
+    {
+      "title": "Turkish DIK-style Syntactic Structure Benchmark Dataset",
+      "url": "https://github.com/huggingface/datasets/issues/8302",
+      "repo": "huggingface/datasets",
+      "stars": 21840,
+      "labels": [
+        "enhancement"
+      ],
+      "comments": 7,
+      "created_at": "2026-07-03",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 487.8
+    },
+    {
+      "title": "[FR] End-to-end workflow for evaluation datasets in UI itself",
+      "url": "https://github.com/mlflow/mlflow/issues/24069",
+      "repo": "mlflow/mlflow",
+      "stars": 27544,
+      "labels": [
+        "enhancement",
+        "area/evaluation",
+        "domain/genai"
+      ],
+      "comments": 0,
+      "created_at": "2026-06-17",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 485.0
+    },
+    {
+      "title": "Support structured metric breakdowns for evaluation metrics",
+      "url": "https://github.com/mlflow/mlflow/issues/24949",
+      "repo": "mlflow/mlflow",
+      "stars": 27544,
+      "labels": [
+        "enhancement",
+        "area/docs",
+        "area/uiux",
+        "area/evaluation",
+        "domain/genai",
+        "domain/platform"
+      ],
+      "comments": 1,
+      "created_at": "2026-08-06",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 484.7
+    },
+    {
+      "title": "[BLOG] Agent Evaluation with Google ADK and MLflow",
+      "url": "https://github.com/mlflow/mlflow-website/issues/587",
+      "repo": "mlflow/mlflow-website",
+      "stars": 21,
+      "labels": [
+        "ack/guide",
+        "ack/readme",
+        "ack/legal",
+        "blog/how-to",
+        "blog/features",
+        "topic/genai"
+      ],
+      "comments": 0,
+      "created_at": "2026-05-20",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 482.9
+    }
+  ]
+}
