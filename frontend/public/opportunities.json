@@ -1,13 +1,312 @@
 {
-  "last_updated": "2026-08-17 15:08:58",
-  "next_update": "2026-08-17 20:08:58",
-  "total": 28,
+  "last_updated": "2026-08-19 01:53:35",
+  "next_update": "2026-08-19 06:53:35",
+  "total": 154,
   "opportunities": [
+    {
+      "title": "Add setting to disable the auto-resolve in 60 seconds for questions",
+      "url": "https://github.com/openai/codex/issues/28969",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "CLI",
+        "config",
+        "plan"
+      ],
+      "comments": 79,
+      "created_at": "2026-06-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Add setting to disable the auto-resolve in 60 seconds for questions",
+        "first_step": "Review the current implementation of auto-resolve and identify the relevant code sections",
+        "career_signal": "This feature affects AI job seekers by providing more control over the interview process, potentially leading to better candidate experiences and more accurate assessments"
+      },
+      "score": 598.4
+    },
+    {
+      "title": "Codex built-in browser plugin initialization fails: Trusted RPC dependency is not within a trusted code path",
+      "url": "https://github.com/openai/codex/issues/39136",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "windows-os",
+        "app",
+        "safety-check",
+        "browser"
+      ],
+      "comments": 63,
+      "created_at": "2026-08-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Codex built-in browser plugin initialization fails due to the Trusted RPC dependency not being within a trusted code path.",
+        "first_step": "Check the code path of the Trusted RPC dependency to ensure it is within a trusted code path.",
+        "career_signal": "This issue highlights the importance of secure code paths in AI development, which is a critical skill for AI jobs."
+      },
+      "score": 598.4
+    },
+    {
+      "title": "Reset failed, did not apply and 1 reset is wasted",
+      "url": "https://github.com/openai/codex/issues/31606",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "rate-limits",
+        "app"
+      ],
+      "comments": 56,
+      "created_at": "2026-07-08",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The reset operation failed, resulting in a wasted reset and potential data loss.",
+        "first_step": "Check the error logs for the reset operation to identify the cause of the failure.",
+        "career_signal": "This issue highlights the importance of robust reset mechanisms in AI research, ensuring data integrity and preventing potential job losses due to data corruption."
+      },
+      "score": 598.4
+    },
+    {
+      "title": "macOS: Persistent SQLite TRACE target=log churn remains after rust-v0.142.0",
+      "url": "https://github.com/openai/codex/issues/29532",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "app",
+        "app-server",
+        "performance"
+      ],
+      "comments": 47,
+      "created_at": "2026-06-23",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "macOS: Persistent SQLite TRACE target=log churn remains after rust-v0.142.0",
+        "first_step": "Investigate the issue by checking the SQLite documentation for any changes in the TRACE target=log feature after rust-v0.142.0",
+        "career_signal": "This issue highlights the importance of testing and debugging in software development, particularly in the context of database interactions, which is a crucial skill for AI developers to have."
+      },
+      "score": 598.4
+    },
+    {
+      "title": "Projects Sort By Last updated only sorts tasks within project groups, not projects",
+      "url": "https://github.com/openai/codex/issues/31836",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "app"
+      ],
+      "comments": 45,
+      "created_at": "2026-07-09",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Projects Sort By Last updated only sorts tasks within project groups, not projects",
+        "first_step": "Identify the issue with the sorting functionality in the project view",
+        "career_signal": "This issue highlights the importance of accurate project sorting in AI development, which can impact project management and collaboration"
+      },
+      "score": 598.4
+    },
+    {
+      "title": "Windows Codex app missing “\\control other devices\"” tab in Settings > Connections",
+      "url": "https://github.com/openai/codex/issues/28919",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "windows-os",
+        "app",
+        "remote"
+      ],
+      "comments": 34,
+      "created_at": "2026-06-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 598.4
+    },
+    {
+      "title": "MCP server processes leak: per-thread processes never cleaned up (9+ GB RSS)",
+      "url": "https://github.com/openai/codex/issues/30408",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "mcp",
+        "app",
+        "app-server",
+        "performance"
+      ],
+      "comments": 29,
+      "created_at": "2026-06-28",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "MCP server processes leak, causing per-thread processes to never be cleaned up, resulting in 9+ GB RSS.",
+        "first_step": "Investigate the MCP server code to identify the source of the process leak.",
+        "career_signal": "This issue highlights the importance of memory management and process handling in AI system development, which is a critical skill for AI jobs."
+      },
+      "score": 598.4
+    },
+    {
+      "title": "Codex Desktop APP - Full Access mode keep asking for Permission - issue in 26.614.11602 - 26.616.32156 ",
+      "url": "https://github.com/openai/codex/issues/28988",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "sandbox",
+        "app"
+      ],
+      "comments": 27,
+      "created_at": "2026-06-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The Codex Desktop APP is experiencing an issue where it keeps asking for permission in Full Access mode, specifically in versions 26.614.11602 and 26.616.32156.",
+        "first_step": "Identify the exact version of the Codex Desktop APP that is causing the issue.",
+        "career_signal": "This issue may impact AI developers' ability to efficiently use the Codex Desktop APP, potentially affecting their productivity and job performance."
+      },
+      "score": 598.4
+    },
+    {
+      "title": "[Bug/Performance] High CPU and low GPU utilization on Windows with dual-socket server",
+      "url": "https://github.com/ollama/ollama/issues/16873",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "bug"
+      ],
+      "comments": 14,
+      "created_at": "2026-06-23",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "High CPU and low GPU utilization on Windows with dual-socket server is causing performance issues.",
+        "first_step": "Check the system configuration and ensure that the GPU is properly installed and configured.",
+        "career_signal": "This issue highlights the importance of optimizing system resources for AI workloads, which is a critical skill for AI developers."
+      },
+      "score": 597.8
+    },
+    {
+      "title": "Text colour does not update when changing system theme in Extension Settings",
+      "url": "https://github.com/microsoft/PowerToys/issues/49435",
+      "repo": "microsoft/PowerToys",
+      "stars": 137854,
+      "labels": [
+        "Issue-Bug",
+        "Help Wanted",
+        "Resolution-External",
+        "Product-Command Palette"
+      ],
+      "comments": 16,
+      "created_at": "2026-07-21",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Text colour does not update when changing system theme in Extension Settings",
+        "first_step": "Check the Extension Settings page for any updates or changes related to system theme settings",
+        "career_signal": "This issue highlights the importance of accessibility and user experience in AI development, as it affects the overall usability of the extension and may impact user adoption and retention"
+      },
+      "score": 596.8
+    },
+    {
+      "title": "[v0.30.0-rc] Memory Degradation: 25GB KV Cache stuck on single-concurrency RAG stack unless upstream TCP connection is physically reset",
+      "url": "https://github.com/ollama/ollama/issues/16336",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "bug"
+      ],
+      "comments": 13,
+      "created_at": "2026-05-28",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Memory degradation occurs in a single-concurrency RAG stack with a 25GB KV cache unless the upstream TCP connection is physically reset.",
+        "first_step": "Identify the root cause of the memory degradation issue.",
+        "career_signal": "This issue highlights the importance of efficient memory management in AI systems, which is crucial for large-scale model training and deployment."
+      },
+      "score": 596.8
+    },
+    {
+      "title": "you must install .NET Desktop Runtime torun this application.",
+      "url": "https://github.com/microsoft/PowerToys/issues/48432",
+      "repo": "microsoft/PowerToys",
+      "stars": 137854,
+      "labels": [
+        "Issue-Bug",
+        "Area-Setup/Install",
+        "Needs-Triage"
+      ],
+      "comments": 15,
+      "created_at": "2026-06-10",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The application requires the .NET Desktop Runtime to be installed to run.",
+        "first_step": "Install the .NET Desktop Runtime.",
+        "career_signal": "This issue highlights the importance of understanding runtime environments in AI development, which is crucial for AI jobs that involve deploying applications."
+      },
+      "score": 595.8
+    },
     {
       "title": "Add RWKV-7 (Goose)",
       "url": "https://github.com/huggingface/transformers/issues/47787",
       "repo": "huggingface/transformers",
-      "stars": 164181,
+      "stars": 164229,
       "labels": [],
       "comments": 13,
       "created_at": "2026-08-05",
@@ -18,17 +317,135 @@
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
       "ai_analysis": {
-        "summary": "Add RWKV-7 (Goose) to address the missing model/architecture.",
-        "first_step": "Review the RWKV-7 (Goose) model and its implementation.",
-        "career_signal": "This issue affects AI developers by highlighting the need for a specific model, which can impact the development of AI-related projects and job opportunities."
+        "summary": "Add RWKV-7 (Goose) as a missing model/architecture.",
+        "first_step": "Identify the exact GitHub repository where RWKV-7 (Goose) is implemented.",
+        "career_signal": "This issue matters for AI jobs as it highlights the need for more comprehensive model support in AI development."
       },
       "score": 595.7
+    },
+    {
+      "title": "Massive memory leak if left in a scrolled up position",
+      "url": "https://github.com/microsoft/terminal/issues/20342",
+      "repo": "microsoft/terminal",
+      "stars": 104629,
+      "labels": [
+        "Issue-Bug",
+        "Needs-Triage",
+        "Needs-Attention"
+      ],
+      "comments": 17,
+      "created_at": "2026-06-19",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {
+        "summary": "The issue causes a massive memory leak if the user leaves the page in a scrolled up position.",
+        "first_step": "Identify the specific code or component responsible for the memory leak.",
+        "career_signal": "This issue highlights the importance of memory management in AI development, which is a crucial skill for AI professionals."
+      },
+      "score": 595.3
+    },
+    {
+      "title": "[power-display][bug] - Monitor is not detecting",
+      "url": "https://github.com/microsoft/PowerToys/issues/48998",
+      "repo": "microsoft/PowerToys",
+      "stars": 137854,
+      "labels": [
+        "Issue-Bug",
+        "Needs-Triage",
+        "Product-PowerDisplay"
+      ],
+      "comments": 14,
+      "created_at": "2026-06-29",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Monitor is not detecting due to a bug in the power-display implementation.",
+        "first_step": "Check the power-display implementation for any known bugs or issues.",
+        "career_signal": "This issue affects AI developers working on power management systems, highlighting the importance of thorough testing and debugging in AI research."
+      },
+      "score": 594.8
+    },
+    {
+      "title": "Cloud API corrupts literal </think> in user messages across thinking models",
+      "url": "https://github.com/ollama/ollama/issues/17248",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [],
+      "comments": 10,
+      "created_at": "2026-07-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Cloud API corrupts literal </think> in user messages across thinking models",
+        "first_step": "Identify the specific Cloud API endpoint causing the corruption",
+        "career_signal": "This issue highlights the importance of robust API design in AI development, ensuring that user input is accurately processed and displayed across different thinking models"
+      },
+      "score": 593.8
+    },
+    {
+      "title": "Agent integrations hang indefinitely with local Qwen models on macOS, while Ollama API works correctly",
+      "url": "https://github.com/ollama/ollama/issues/17839",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "bug"
+      ],
+      "comments": 10,
+      "created_at": "2026-08-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "Agent integrations hang indefinitely with local Qwen models on macOS, while Ollama API works correctly",
+        "first_step": "Investigate the difference between local Qwen models and Ollama API on macOS",
+        "career_signal": "This issue highlights the importance of considering platform-specific issues in AI model integrations, which is a crucial skill for AI developers to have in their toolkit."
+      },
+      "score": 593.8
+    },
+    {
+      "title": "Sixel image output crashes the terminal",
+      "url": "https://github.com/microsoft/terminal/issues/20548",
+      "repo": "microsoft/terminal",
+      "stars": 104629,
+      "labels": [
+        "Issue-Bug",
+        "Needs-Triage"
+      ],
+      "comments": 15,
+      "created_at": "2026-08-14",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The terminal crashes when trying to output Sixel images due to a bug in the implementation.",
+        "first_step": "Identify the exact version of the terminal and the Sixel image library being used to reproduce the issue.",
+        "career_signal": "This issue highlights the importance of robust image processing in AI, which is crucial for applications like image recognition and generation."
+      },
+      "score": 593.3
     },
     {
       "title": "Fast (Rust-backed) tokenizers aren't thread-safe anymore",
       "url": "https://github.com/huggingface/transformers/issues/47085",
       "repo": "huggingface/transformers",
-      "stars": 164181,
+      "stars": 164229,
       "labels": [
         "bug"
       ],
@@ -41,19 +458,249 @@
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
       "ai_analysis": {
-        "summary": "Fast (Rust-backed) tokenizers aren't thread-safe anymore",
-        "first_step": "Review the code for thread safety issues",
-        "career_signal": "This issue affects the performance of concurrent AI applications"
+        "summary": "Fast (Rust-backed) tokenizers aren't thread-safe anymore can be summarized as one sentence.",
+        "first_step": "Identify the specific tokenizer library affected by the thread-safety issue.",
+        "career_signal": "This issue matters for AI jobs because it may impact the performance and reliability of concurrent applications using tokenizers."
       },
       "score": 591.7
     },
     {
-      "title": "Assisted/speculative decoding generates past an EOS that is accepted mid-block",
-      "url": "https://github.com/huggingface/transformers/issues/47912",
-      "repo": "huggingface/transformers",
-      "stars": 164181,
+      "title": "Support GGUF models with diffusion-gemma architecture",
+      "url": "https://github.com/ollama/ollama/issues/16664",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "feature request"
+      ],
+      "comments": 6,
+      "created_at": "2026-06-10",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {
+        "summary": "The issue is requesting support for GGUF models with diffusion-gemma architecture.",
+        "first_step": "Review the current architecture and identify the necessary modifications to support GGUF models.",
+        "career_signal": "This issue matters for AI jobs as it involves the development of new models and architectures, which can impact the field of AI and its applications."
+      },
+      "score": 589.8
+    },
+    {
+      "title": "qwen35moe decode throughput regressed ~23% at v0.30.9 on RTX 3090 (bisected to 5 commits, prime suspect: llama.cpp b9637 bump)",
+      "url": "https://github.com/ollama/ollama/issues/17123",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "needs more info"
+      ],
+      "comments": 6,
+      "created_at": "2026-07-11",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 589.8
+    },
+    {
+      "title": "qwen3.8:27b: POST /v1/chat/completions never responds (works fine via /api/chat and ollama run)",
+      "url": "https://github.com/ollama/ollama/issues/17790",
+      "repo": "ollama/ollama",
+      "stars": 178904,
       "labels": [],
+      "comments": 6,
+      "created_at": "2026-08-16",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 589.8
+    },
+    {
+      "title": "Is transformers 5.12.1 requires tokenizers<=0.23.0,>=0.22.0 really right?",
+      "url": "https://github.com/huggingface/transformers/issues/46785",
+      "repo": "huggingface/transformers",
+      "stars": 164229,
+      "labels": [],
+      "comments": 6,
+      "created_at": "2026-06-20",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 588.7
+    },
+    {
+      "title": "Bug Report: Severe memory leak triggered by \"TypeScript (Native Preview)\" extension",
+      "url": "https://github.com/microsoft/typescript-go/issues/4520",
+      "repo": "microsoft/typescript-go",
+      "stars": 26221,
+      "labels": [
+        "Domain: Editor"
+      ],
+      "comments": 19,
+      "created_at": "2026-07-02",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {},
+      "score": 587.6
+    },
+    {
+      "title": "[Bug] No file editing tool available in Agent mode since upgrading to 0.20",
+      "url": "https://github.com/microsoft/copilot-for-eclipse/issues/355",
+      "repo": "microsoft/copilot-for-eclipse",
+      "stars": 120,
+      "labels": [
+        "bug"
+      ],
+      "comments": 29,
+      "created_at": "2026-07-16",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 586.7
+    },
+    {
+      "title": "[inductor][cuda] `view(torch.bool).copy_(y.view(torch.bool)).view(torch.float32)` silently corrupts data under `torch.compile`",
+      "url": "https://github.com/pytorch/pytorch/issues/193760",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "high priority",
+        "triaged",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ],
+      "comments": 8,
+      "created_at": "2026-08-17",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 586.1
+    },
+    {
+      "title": "[libaec] build failure",
+      "url": "https://github.com/microsoft/vcpkg/issues/51921",
+      "repo": "microsoft/vcpkg",
+      "stars": 27371,
+      "labels": [
+        "category:port-bug"
+      ],
+      "comments": 17,
+      "created_at": "2026-05-23",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 585.7
+    },
+    {
+      "title": "INTERNAL ASSERT FAILED at \"/pytorch/c10/core/AllocatorConfig.h\":124 on python torch import",
+      "url": "https://github.com/pytorch/pytorch/issues/186453",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "module: crash",
+        "triaged",
+        "actionable",
+        "module: CUDACachingAllocator"
+      ],
       "comments": 7,
+      "created_at": "2026-06-06",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 585.1
+    },
+    {
+      "title": "RTX 5090 cudaErrorLaunchTimeout",
+      "url": "https://github.com/pytorch/pytorch/issues/188411",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "needs reproduction",
+        "module: cudnn",
+        "module: cuda",
+        "triaged",
+        "module: reductions",
+        "bot-triaged"
+      ],
+      "comments": 7,
+      "created_at": "2026-06-29",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {},
+      "score": 585.1
+    },
+    {
+      "title": "[MPS] MetalShaderLibrary::getBundledLibrary singleton can crash at process exit",
+      "url": "https://github.com/pytorch/pytorch/issues/188812",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "triage review",
+        "needs reproduction",
+        "module: crash",
+        "module: flaky-tests",
+        "module: macos",
+        "module: mps",
+        "bot-triaged"
+      ],
+      "comments": 7,
+      "created_at": "2026-07-02",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 585.1
+    },
+    {
+      "title": "[Bug] Error on second launch of macos app",
+      "url": "https://github.com/unslothai/unsloth/issues/8610",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 9,
       "created_at": "2026-08-12",
       "category": "research_impl",
       "category_label": "Research Implementation",
@@ -61,18 +708,168 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "Assisted/speculative decoding generates past an EOS that is accepted mid-block",
-        "first_step": "Analyze the decoding process to identify the point where the EOS is accepted mid-block",
-        "career_signal": "This issue highlights the importance of understanding decoding mechanisms in AI development, which can impact the performance and reliability of AI models in real-world applications."
-      },
-      "score": 589.7
+      "ai_analysis": {},
+      "score": 584.9
+    },
+    {
+      "title": "RuntimeLibrary conflict in latest version",
+      "url": "https://github.com/google/googletest/issues/5042",
+      "repo": "google/googletest",
+      "stars": 38936,
+      "labels": [],
+      "comments": 13,
+      "created_at": "2026-07-25",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 582.6
+    },
+    {
+      "title": "[Data] - Add support for `unnest` for Expressions and `with_columns` API",
+      "url": "https://github.com/ray-project/ray/issues/63838",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "enhancement",
+        "triage",
+        "data"
+      ],
+      "comments": 12,
+      "created_at": "2026-06-03",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 581.9
+    },
+    {
+      "title": "Password from PasswordBox.Password stays in memory indefinitely",
+      "url": "https://github.com/microsoft/microsoft-ui-xaml/issues/11407",
+      "repo": "microsoft/microsoft-ui-xaml",
+      "stars": 7886,
+      "labels": [
+        "bug",
+        "needs-triage"
+      ],
+      "comments": 14,
+      "created_at": "2026-07-30",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 581.3
+    },
+    {
+      "title": "C_Cpp.ResetDatabase does not recover IntelliSense for newly created files when CMake Tools is the configurationProvider",
+      "url": "https://github.com/microsoft/vscode-cmake-tools/issues/4953",
+      "repo": "microsoft/vscode-cmake-tools",
+      "stars": 1683,
+      "labels": [
+        "bug"
+      ],
+      "comments": 14,
+      "created_at": "2026-05-22",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 580.8
+    },
+    {
+      "title": "[Feature] Studio: Add support for configuring chat templates in Fine-tuning",
+      "url": "https://github.com/unslothai/unsloth/issues/5755",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "feature request"
+      ],
+      "comments": 2,
+      "created_at": "2026-05-24",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 580.4
+    },
+    {
+      "title": "LogisticRegressionCV raises TypeError: make_scorer() got multiple values for keyword argument 'pos_label' with string scoring on binary classification (v1.9 regression)",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/34531",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 66972,
+      "labels": [
+        "Bug",
+        "module:linear_model"
+      ],
+      "comments": 2,
+      "created_at": "2026-07-20",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 579.9
+    },
+    {
+      "title": "Automatically picks CPU forever :(",
+      "url": "https://github.com/unslothai/unsloth/issues/5807",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 4,
+      "created_at": "2026-05-27",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 579.9
+    },
+    {
+      "title": "Customizer Unsloth to fine-tune a model of this architecture: Model(   (backbone): TransformerDecoder()   )",
+      "url": "https://github.com/unslothai/unsloth/issues/5919",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 4,
+      "created_at": "2026-06-01",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 579.9
     },
     {
       "title": "interrupt() inside a tool is reported as a `tool-error` on the tools stream (structured Interrupt lost)",
       "url": "https://github.com/langchain-ai/langgraph/issues/8218",
       "repo": "langchain-ai/langgraph",
-      "stars": 39845,
+      "stars": 39967,
       "labels": [
         "external"
       ],
@@ -84,18 +881,145 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "interrupt() inside a tool is reported as a `tool-error` on the tools stream (structured Interrupt lost)",
-        "first_step": "Investigate the interrupt() function in the tool and understand its purpose",
-        "career_signal": "This issue affects the reliability of AI tools and may impact the productivity of AI developers"
-      },
+      "ai_analysis": {},
       "score": 579.7
+    },
+    {
+      "title": "OPTICS always triggers and EfficiencyWarning",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/34647",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 66972,
+      "labels": [
+        "Bug"
+      ],
+      "comments": 1,
+      "created_at": "2026-08-04",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 578.9
+    },
+    {
+      "title": "[Bug] Title: Q4_1 KV-cache causes 99% CPU load and 96°C thermal throttling . F16 KV-cache works fine",
+      "url": "https://github.com/unslothai/unsloth/issues/6272",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 3,
+      "created_at": "2026-06-12",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 578.9
+    },
+    {
+      "title": "[Feature] Finetuning support for PaddlePaddle/PaddleOCR-VL-1.6",
+      "url": "https://github.com/unslothai/unsloth/issues/6661",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "feature request"
+      ],
+      "comments": 3,
+      "created_at": "2026-06-25",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 578.9
+    },
+    {
+      "title": "[Bug] Strix Halo \"llama-server crashed at startup on both the vision and text-only attempts -- a GPU driver/runtime initialization crash, not a model or vision-projector problem\"",
+      "url": "https://github.com/unslothai/unsloth/issues/7380",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-24",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 578.9
+    },
+    {
+      "title": "[Bug] qwen3.5 9b not ever reaching first step + gemma 4 26b a4b OOM QLoRa with batch size 1 on 96GB VRAM",
+      "url": "https://github.com/unslothai/unsloth/issues/7203",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-17",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 578.9
+    },
+    {
+      "title": "wait_for_event: step replay re-fires pre-wait side effects, and a non-deterministic waiter_id breaks matching across replays",
+      "url": "https://github.com/run-llama/llama_index/issues/22559",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [],
+      "comments": 2,
+      "created_at": "2026-08-03",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 578.8
+    },
+    {
+      "title": "Pandas output path fails to reject infinite values during transform",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/34500",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 66972,
+      "labels": [
+        "Sprint"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-17",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 578.4
     },
     {
       "title": "candle-datasets ssl",
       "url": "https://github.com/huggingface/candle/issues/3687",
       "repo": "huggingface/candle",
-      "stars": 20914,
+      "stars": 20924,
       "labels": [],
       "comments": 10,
       "created_at": "2026-06-30",
@@ -105,18 +1029,176 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "candle-datasets ssl is a missing model/architecture issue",
-        "first_step": "read the issue description to understand the problem",
-        "career_signal": "this issue highlights the importance of dataset security in AI development"
-      },
+      "ai_analysis": {},
       "score": 578.2
+    },
+    {
+      "title": "Feature: Add VORTEXRAG as a retrieval module — 7-layer RAG with causal drift elimination",
+      "url": "https://github.com/run-llama/llama_index/issues/21903",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-06-07",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.8
+    },
+    {
+      "title": "[Bug]: AttributeError: 'MultiModalVectorIndexRetriever' object has no attribute 'object_map'",
+      "url": "https://github.com/run-llama/llama_index/issues/22080",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [
+        "bug",
+        "triage"
+      ],
+      "comments": 1,
+      "created_at": "2026-06-22",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.8
+    },
+    {
+      "title": "[Bug]: llama-index-vector-stores-lancedb fails to import in a clean env - pandas used at runtime but not declared",
+      "url": "https://github.com/run-llama/llama_index/issues/22619",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-08-10",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.8
+    },
+    {
+      "title": "[Bug]: llama-dev test suite fails in local mode due to invalid mocked package paths",
+      "url": "https://github.com/run-llama/llama_index/issues/22695",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-08-15",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.8
+    },
+    {
+      "title": "[Bug]: VoyageEmbedding Failed with no retry",
+      "url": "https://github.com/run-llama/llama_index/issues/22238",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [
+        "bug",
+        "triage"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-02",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.3
+    },
+    {
+      "title": "[Bug]: Sharepoint integration just won't work",
+      "url": "https://github.com/run-llama/llama_index/issues/22291",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [
+        "bug",
+        "triage"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-09",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.3
+    },
+    {
+      "title": "Running Streamlit with Starlette in Corporate Network",
+      "url": "https://github.com/streamlit/streamlit/issues/15378",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:bug",
+        "type:regression",
+        "area:windows",
+        "area:network",
+        "status:confirmed",
+        "priority:P3",
+        "area:server"
+      ],
+      "comments": 7,
+      "created_at": "2026-06-01",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.1
+    },
+    {
+      "title": "Reduced number of supported options in selectbox while in Popover",
+      "url": "https://github.com/streamlit/streamlit/issues/16069",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:bug",
+        "type:regression",
+        "area:frontend",
+        "area:performance",
+        "status:confirmed",
+        "priority:P3",
+        "feature:st.selectbox",
+        "feature:st.popover"
+      ],
+      "comments": 7,
+      "created_at": "2026-07-20",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.1
     },
     {
       "title": "InMemoryStore upsert overwrites created_at on existing keys",
       "url": "https://github.com/langchain-ai/langgraph/issues/8340",
       "repo": "langchain-ai/langgraph",
-      "stars": 39845,
+      "stars": 39967,
       "labels": [
         "external"
       ],
@@ -128,18 +1210,14 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "InMemoryStore upsert overwrites created_at on existing keys",
-        "first_step": "Review the InMemoryStore implementation to understand the issue",
-        "career_signal": "This issue highlights the importance of data integrity in AI systems, which is a key concern for AI developers and a valuable skill to have in the industry"
-      },
+      "ai_analysis": {},
       "score": 576.7
     },
     {
       "title": "DeltaChannel replay order diverges from live execution order for parallel-superstep writes, corrupting continued-thread state",
       "url": "https://github.com/langchain-ai/langgraph/issues/8382",
       "repo": "langchain-ai/langgraph",
-      "stars": 39845,
+      "stars": 39967,
       "labels": [
         "external"
       ],
@@ -151,18 +1229,14 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "DeltaChannel replay order diverges from live execution order for parallel-superstep writes, corrupting continued-thread state",
-        "first_step": "Identify the root cause of the issue by analyzing the DeltaChannel implementation and its interaction with parallel-superstep writes",
-        "career_signal": "This issue highlights the importance of considering concurrent execution and thread safety in AI system design, which is crucial for maintaining the integrity of AI models and ensuring reliable performance in production environments"
-      },
+      "ai_analysis": {},
       "score": 576.7
     },
     {
       "title": "TypeError in _dill.py _batch_setitems with Python 3.14",
       "url": "https://github.com/huggingface/datasets/issues/8373",
       "repo": "huggingface/datasets",
-      "stars": 21840,
+      "stars": 21841,
       "labels": [],
       "comments": 8,
       "created_at": "2026-07-29",
@@ -172,18 +1246,134 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "TypeError in _dill.py _batch_setitems with Python 3.14",
-        "first_step": "Check the Python version used in the project and ensure it is compatible with Python 3.14",
-        "career_signal": "This issue highlights the importance of keeping up-to-date with the latest Python versions and their potential impact on AI research and development"
-      },
+      "ai_analysis": {},
       "score": 576.3
+    },
+    {
+      "title": "Playwrite GB - lead in and lead out strokes on individual letters",
+      "url": "https://github.com/google/fonts/issues/10605",
+      "repo": "google/fonts",
+      "stars": 20377,
+      "labels": [
+        "I Font Bug"
+      ],
+      "comments": 8,
+      "created_at": "2026-06-09",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 576.2
+    },
+    {
+      "title": "`bind=\"query-params\"` doesn't add the the value to query string if the default value is chosen",
+      "url": "https://github.com/streamlit/streamlit/issues/16055",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "area:widgets",
+        "feature:query-params",
+        "feature:st.selectbox",
+        "feature:st.multiselect"
+      ],
+      "comments": 6,
+      "created_at": "2026-07-17",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 576.1
+    },
+    {
+      "title": "PostgresSaver/AsyncPostgresSaver incompatible with CockroachDB: unaliased jsonb_each_text SRF + multidimensional array serialization",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8620",
+      "repo": "langchain-ai/langgraph",
+      "stars": 39967,
+      "labels": [
+        "external"
+      ],
+      "comments": 6,
+      "created_at": "2026-08-14",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 575.7
+    },
+    {
+      "title": "GraphicsMagick/libheif/vvdec issues not getting closed due to \"Progression task errored out: Build setup failed\"",
+      "url": "https://github.com/google/oss-fuzz/issues/15871",
+      "repo": "google/oss-fuzz",
+      "stars": 12569,
+      "labels": [],
+      "comments": 8,
+      "created_at": "2026-07-13",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 575.6
+    },
+    {
+      "title": "\"Download to CSV\" export from `st.dataframe` excludes hierarchical column headers",
+      "url": "https://github.com/streamlit/streamlit/issues/15891",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "area:frontend",
+        "feature:st.dataframe",
+        "feature:st.data_editor"
+      ],
+      "comments": 5,
+      "created_at": "2026-07-08",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 575.1
+    },
+    {
+      "title": "pkg/aflow: tune context summarization",
+      "url": "https://github.com/google/syzkaller/issues/7387",
+      "repo": "google/syzkaller",
+      "stars": 6304,
+      "labels": [
+        "enhancement",
+        "AI patching"
+      ],
+      "comments": 8,
+      "created_at": "2026-05-26",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 575.1
     },
     {
       "title": "Scalar resume is accepted for multiple interrupts in one subgraph task",
       "url": "https://github.com/langchain-ai/langgraph/issues/8579",
       "repo": "langchain-ai/langgraph",
-      "stars": 39850,
+      "stars": 39967,
       "labels": [
         "external"
       ],
@@ -195,18 +1385,141 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "A scalar resume is accepted for multiple interrupts in one subgraph task, which may have implications for AI job applications.",
-        "first_step": "Read the title and understand the context of the issue.",
-        "career_signal": "This issue highlights the importance of handling multiple interrupts in AI job applications, which can be a critical skill for developers."
-      },
+      "ai_analysis": {},
       "score": 574.7
+    },
+    {
+      "title": "CP-SAT:  Segmentation fault using num_workers > 4 on attached model",
+      "url": "https://github.com/google/or-tools/issues/5292",
+      "repo": "google/or-tools",
+      "stars": 13912,
+      "labels": [],
+      "comments": 7,
+      "created_at": "2026-08-10",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 574.7
+    },
+    {
+      "title": "Console warning 'The widget with key \"...\" was created with a default value but also had its value set via the Session State API' should not be issued",
+      "url": "https://github.com/streamlit/streamlit/issues/15544",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "area:widgets",
+        "status:unlikely"
+      ],
+      "comments": 2,
+      "created_at": "2026-06-12",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 574.6
+    },
+    {
+      "title": "st.pydeck_chart selection events (on_select=\"rerun\") are never delivered when the chart is inside @st.fragment",
+      "url": "https://github.com/streamlit/streamlit/issues/15941",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:bug",
+        "type:regression",
+        "status:awaiting-user-response",
+        "feature:st.pydeck_chart",
+        "area:events",
+        "feature:st.fragment"
+      ],
+      "comments": 2,
+      "created_at": "2026-07-11",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 574.6
+    },
+    {
+      "title": "Screen reader is not announcing the visual label on the 'Fullscreen' button in windows",
+      "url": "https://github.com/streamlit/streamlit/issues/16148",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "area:accessibility"
+      ],
+      "comments": 2,
+      "created_at": "2026-07-24",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 574.6
+    },
+    {
+      "title": "[RLlib] IQL inherits MARWIL's `beta <= 1.0` validation, preventing use of higher and paper-recommended values",
+      "url": "https://github.com/ray-project/ray/issues/64954",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "bug",
+        "triage",
+        "rllib",
+        "stability",
+        "community-backlog"
+      ],
+      "comments": 2,
+      "created_at": "2026-07-23",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 574.4
+    },
+    {
+      "title": "Security: Add configurable WebSocket Origin allow-list",
+      "url": "https://github.com/streamlit/streamlit/issues/16448",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "area:security",
+        "feature:config",
+        "area:server"
+      ],
+      "comments": 4,
+      "created_at": "2026-08-10",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 574.1
     },
     {
       "title": "Subagent HITL interrupts fail to route to parent tool call in ACP",
       "url": "https://github.com/langchain-ai/deepagents/issues/4033",
       "repo": "langchain-ai/deepagents",
-      "stars": 27847,
+      "stars": 27903,
       "labels": [
         "bug",
         "acp",
@@ -220,18 +1533,14 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "Subagent HITL interrupts fail to route to parent tool call in ACP",
-        "first_step": "Analyze the ACP routing mechanism to identify the cause of the failure",
-        "career_signal": "This issue highlights the importance of robust routing mechanisms in AI systems, which can impact the reliability and efficiency of AI job performance"
-      },
+      "ai_analysis": {},
       "score": 573.8
     },
     {
       "title": "Glob rejects allowed absolute patterns when path is omitted under filesystem permissions",
       "url": "https://github.com/langchain-ai/deepagents/issues/4882",
       "repo": "langchain-ai/deepagents",
-      "stars": 27847,
+      "stars": 27903,
       "labels": [
         "bug",
         "deepagents",
@@ -245,43 +1554,14 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "The issue is about Glob rejecting allowed absolute patterns when the path is omitted under filesystem permissions, which could impact AI job implementation.",
-        "first_step": "Review the Glob library documentation to understand the behavior of absolute patterns under filesystem permissions.",
-        "career_signal": "This issue highlights the importance of understanding file system permissions in AI job implementation, as it can affect the accuracy and reliability of AI models."
-      },
-      "score": 573.8
-    },
-    {
-      "title": "BaseSandbox.grep path globs fail because the inline Python command is not shell-safe",
-      "url": "https://github.com/langchain-ai/deepagents/issues/5112",
-      "repo": "langchain-ai/deepagents",
-      "stars": 27847,
-      "labels": [
-        "bug",
-        "deepagents",
-        "external"
-      ],
-      "comments": 5,
-      "created_at": "2026-07-28",
-      "category": "research_impl",
-      "category_label": "Research Implementation",
-      "category_color": "#8b5cf6",
-      "career_weight": 95,
-      "difficulty": "EASY-MEDIUM",
-      "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "The inline Python command in BaseSandbox.grep is not shell-safe, causing path globs to fail.",
-        "first_step": "Check the BaseSandbox.grep file for any inline Python commands and replace them with shell-safe alternatives.",
-        "career_signal": "This issue highlights the importance of shell safety in AI development, as it can lead to unexpected behavior and errors in critical code paths."
-      },
+      "ai_analysis": {},
       "score": 573.8
     },
     {
       "title": "BinaryOperatorAggregate.__eq__ raises AttributeError for reducers without __name__ (e.g. functools.partial, callable instances) when a reducer field is shared across schemas",
       "url": "https://github.com/langchain-ai/langgraph/issues/8082",
       "repo": "langchain-ai/langgraph",
-      "stars": 39853,
+      "stars": 39967,
       "labels": [
         "external"
       ],
@@ -293,34 +1573,26 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "BinaryOperatorAggregate.__eq__ raises AttributeError for reducers without __name__ (e.g. functools.partial, callable instances) when a reducer field is shared across schemas",
-        "first_step": "Identify the specific use case where the error occurs, e.g. when using functools.partial or callable instances as reducers",
-        "career_signal": "This issue highlights the importance of considering edge cases in reducer implementations, particularly when working with complex data structures or shared schema fields, which can impact the reliability and maintainability of AI models and their deployment in production environments."
-      },
+      "ai_analysis": {},
       "score": 573.7
     },
     {
-      "title": "PostgresSaver/AsyncPostgresSaver incompatible with CockroachDB: unaliased jsonb_each_text SRF + multidimensional array serialization",
-      "url": "https://github.com/langchain-ai/langgraph/issues/8620",
+      "title": "checkpoint-sqlite: TTL sweepers outlive `from_conn_string` contexts",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8589",
       "repo": "langchain-ai/langgraph",
-      "stars": 39853,
+      "stars": 39967,
       "labels": [
         "external"
       ],
       "comments": 4,
-      "created_at": "2026-08-14",
+      "created_at": "2026-08-11",
       "category": "research_impl",
       "category_label": "Research Implementation",
       "category_color": "#8b5cf6",
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "PostgresSaver/AsyncPostgresSaver incompatible with CockroachDB: unaliased jsonb_each_text SRF + multidimensional array serialization",
-        "first_step": "Analyze the incompatibility issue between PostgresSaver/AsyncPostgresSaver and CockroachDB",
-        "career_signal": "This issue highlights the importance of database compatibility in AI development, requiring developers to consider the nuances of different database systems when implementing asynchronous data storage solutions."
-      },
+      "ai_analysis": {},
       "score": 573.7
     },
     {
@@ -337,18 +1609,190 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "The issue is about adding support for Gemma 4 12B in OpenVINO with a specific model type.",
-        "first_step": "Review the OpenVINO documentation to see if there are any existing solutions or workarounds for Gemma 4 12B.",
-        "career_signal": "This issue matters for AI jobs because it affects the development and deployment of AI models on specific hardware platforms."
-      },
+      "ai_analysis": {},
       "score": 573.7
+    },
+    {
+      "title": "[Serve] Deployment.__eq__() raises AttributeError when compared to non-Deployment types",
+      "url": "https://github.com/ray-project/ray/issues/64574",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "serve",
+        "stability",
+        "community-backlog"
+      ],
+      "comments": 0,
+      "created_at": "2026-07-07",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "[Serve][LLM] prefix_aware_router crashes with ZeroDivisionError on empty input",
+      "url": "https://github.com/ray-project/ray/issues/64573",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "serve",
+        "llm",
+        "stability",
+        "community-backlog"
+      ],
+      "comments": 0,
+      "created_at": "2026-07-07",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "Invalid filter conditions silently accepted (200 OK) with poor error diagnostics across search/query/scroll endpoints",
+      "url": "https://github.com/qdrant/qdrant/issues/9524",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [],
+      "comments": 2,
+      "created_at": "2026-06-20",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "[Bug] Exact Euclidean search violates translation invariance with large offsets (Top-1 changes)",
+      "url": "https://github.com/qdrant/qdrant/issues/9150",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [
+        "bug",
+        "wontfix"
+      ],
+      "comments": 2,
+      "created_at": "2026-05-24",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "Query API silently returns 200 OK when lookup_from references a non-existent collection",
+      "url": "https://github.com/qdrant/qdrant/issues/9522",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [
+        "bug"
+      ],
+      "comments": 2,
+      "created_at": "2026-06-20",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "query_points occasionally returns 500 \"Expected at least one response for one query\" during concurrent collection deletion/recreation",
+      "url": "https://github.com/qdrant/qdrant/issues/9229",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [
+        "bug"
+      ],
+      "comments": 2,
+      "created_at": "2026-05-29",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "Bug: Batch operations not atomic — valid points persisted despite HTTP 400 error",
+      "url": "https://github.com/qdrant/qdrant/issues/9371",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [
+        "wontfix"
+      ],
+      "comments": 2,
+      "created_at": "2026-06-08",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.7
+    },
+    {
+      "title": "WithAuthToken authorizes requests outside configured hosts",
+      "url": "https://github.com/google/go-github/issues/4366",
+      "repo": "google/go-github",
+      "stars": 11276,
+      "labels": [],
+      "comments": 6,
+      "created_at": "2026-07-04",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.5
+    },
+    {
+      "title": "[RuntimeEnv] Support isolated and cached pip dependencies inside image_uri containers",
+      "url": "https://github.com/ray-project/ray/issues/65322",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "usability",
+        "performance",
+        "core",
+        "community-backlog"
+      ],
+      "comments": 1,
+      "created_at": "2026-08-10",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.4
     },
     {
       "title": "[BUG] Adding a trace with array-shaped inputs (OTel GenAI convention) to an evaluation dataset fails with a 500 INTERNAL_ERROR",
       "url": "https://github.com/mlflow/mlflow/issues/24709",
       "repo": "mlflow/mlflow",
-      "stars": 27544,
+      "stars": 27570,
       "labels": [],
       "comments": 2,
       "created_at": "2026-07-28",
@@ -358,18 +1802,257 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "Adding a trace with array-shaped inputs (OTel GenAI convention) to an evaluation dataset fails with a 500 INTERNAL_ERROR",
-        "first_step": "Identify the cause of the 500 INTERNAL_ERROR when adding a trace with array-shaped inputs to an evaluation dataset",
-        "career_signal": "This issue highlights the importance of robust error handling in AI development, particularly when working with complex data structures like array-shaped inputs, and demonstrates the need for developers to be able to identify and resolve such errors efficiently, which is a critical skill for AI jobs"
-      },
+      "ai_analysis": {},
       "score": 573.2
+    },
+    {
+      "title": "st.selectbox does not show full text - when width of the container is not sufficient",
+      "url": "https://github.com/streamlit/streamlit/issues/16348",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "area:widgets",
+        "feature:st.selectbox",
+        "feature:tooltip"
+      ],
+      "comments": 3,
+      "created_at": "2026-08-05",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 573.1
+    },
+    {
+      "title": "Emoticons are still prioritized in the conversion candidates (with Disabled Emoticon Conversion)",
+      "url": "https://github.com/google/mozc/issues/1559",
+      "repo": "google/mozc",
+      "stars": 2965,
+      "labels": [],
+      "comments": 6,
+      "created_at": "2026-07-24",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.9
+    },
+    {
+      "title": "Scroll(order_by) returns duplicate point records for multi-valued numeric payload fields",
+      "url": "https://github.com/qdrant/qdrant/issues/9192",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [
+        "bug"
+      ],
+      "comments": 1,
+      "created_at": "2026-05-27",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.7
+    },
+    {
+      "title": "Use VORTEXRAG on top of Chroma — 7-layer RAG that eliminates semantic drift",
+      "url": "https://github.com/chroma-core/chroma/issues/7221",
+      "repo": "chroma-core/chroma",
+      "stars": 29082,
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-06-07",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.6
+    },
+    {
+      "title": "[Feature Request]: chroma browse fails with \"Failed to load records\" when using v2 API on local server",
+      "url": "https://github.com/chroma-core/chroma/issues/7269",
+      "repo": "chroma-core/chroma",
+      "stars": 29082,
+      "labels": [
+        "enhancement"
+      ],
+      "comments": 0,
+      "created_at": "2026-06-16",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.6
+    },
+    {
+      "title": "[Bug]: Docker image [chromadb/chroma:0.4.22] fails to pull - corrupted blob on Docker Hub",
+      "url": "https://github.com/chroma-core/chroma/issues/7495",
+      "repo": "chroma-core/chroma",
+      "stars": 29082,
+      "labels": [
+        "bug"
+      ],
+      "comments": 0,
+      "created_at": "2026-07-24",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.6
+    },
+    {
+      "title": "[Bug]: Rework chromadb/__init__.py to avoid  [sys.executable, \"-m\", \"pip\", \"install\", \"pysqlite3-binary\"]",
+      "url": "https://github.com/chroma-core/chroma/issues/7402",
+      "repo": "chroma-core/chroma",
+      "stars": 29082,
+      "labels": [
+        "bug"
+      ],
+      "comments": 0,
+      "created_at": "2026-07-08",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.6
+    },
+    {
+      "title": "[BUG] set_destination leaks a MeterProvider and a metric reader thread on every call",
+      "url": "https://github.com/mlflow/mlflow/issues/25206",
+      "repo": "mlflow/mlflow",
+      "stars": 27570,
+      "labels": [
+        "area/tracing"
+      ],
+      "comments": 0,
+      "created_at": "2026-08-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.5
+    },
+    {
+      "title": "[Feature]: Implement Tree-structured Parzen Estimator for hyperparameter tuning for the sweeps API",
+      "url": "https://github.com/wandb/wandb/issues/11935",
+      "repo": "wandb/wandb",
+      "stars": 11232,
+      "labels": [
+        "ty:feature"
+      ],
+      "comments": 5,
+      "created_at": "2026-05-22",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.5
+    },
+    {
+      "title": "[Bug-App]: Regex panel groups metrics correctly but auto-generated individual charts are not suppressed, causing 100+ duplicate charts",
+      "url": "https://github.com/wandb/wandb/issues/12043",
+      "repo": "wandb/wandb",
+      "stars": 11232,
+      "labels": [
+        "ty:bug",
+        "a:app"
+      ],
+      "comments": 5,
+      "created_at": "2026-06-15",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.5
+    },
+    {
+      "title": "[BUG] Fail to build with `-Werror` on macOS.",
+      "url": "https://github.com/google/benchmark/issues/2263",
+      "repo": "google/benchmark",
+      "stars": 10355,
+      "labels": [],
+      "comments": 5,
+      "created_at": "2026-07-23",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.4
+    },
+    {
+      "title": "Add `acosh` expression to Formula Query for hyperbolic distance rescoring",
+      "url": "https://github.com/qdrant/qdrant/issues/10186",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [],
+      "comments": 3,
+      "created_at": "2026-08-11",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.2
+    },
+    {
+      "title": "[Parsing]  Image identification failed",
+      "url": "https://github.com/run-llama/liteparse/issues/425",
+      "repo": "run-llama/liteparse",
+      "stars": 12121,
+      "labels": [
+        "bug"
+      ],
+      "comments": 0,
+      "created_at": "2026-08-18",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 571.3
     },
     {
       "title": "Add support for Gradio 6",
       "url": "https://github.com/gradio-app/fastrtc/issues/428",
       "repo": "gradio-app/fastrtc",
-      "stars": 0,
+      "stars": 4624,
       "labels": [],
       "comments": 0,
       "created_at": "2026-06-04",
@@ -379,39 +2062,446 @@
       "career_weight": 95,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "Add support for Gradio 6",
-        "first_step": "Identify the changes required in the code to support Gradio 6",
-        "career_signal": "This issue affects AI developers who use Gradio for building and deploying AI models, and highlights the importance of staying up-to-date with the latest library versions to ensure compatibility and optimal performance."
-      },
+      "ai_analysis": {},
+      "score": 570.8
+    },
+    {
+      "title": "bug: VS Code extension does not edit selected file",
+      "url": "https://github.com/mistralai/mistral-vibe/issues/817",
+      "repo": "mistralai/mistral-vibe",
+      "stars": 4844,
+      "labels": [
+        "bug",
+        "VS Code Extension",
+        "linear-sync"
+      ],
+      "comments": 0,
+      "created_at": "2026-06-18",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.8
+    },
+    {
+      "title": "bug: Cosmetic tracebacks on exit (/exit, Ctrl+C, Ctrl+D) due to Textual widget teardown race conditions",
+      "url": "https://github.com/mistralai/mistral-vibe/issues/929",
+      "repo": "mistralai/mistral-vibe",
+      "stars": 4844,
+      "labels": [
+        "bug",
+        "CLI",
+        "linear-sync",
+        "Rendering"
+      ],
+      "comments": 0,
+      "created_at": "2026-07-21",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {},
+      "score": 570.8
+    },
+    {
+      "title": "bug: Mistral Vibe hangs after detached child-process tool call",
+      "url": "https://github.com/mistralai/mistral-vibe/issues/831",
+      "repo": "mistralai/mistral-vibe",
+      "stars": 4844,
+      "labels": [
+        "linear-sync",
+        "Local runtime"
+      ],
+      "comments": 0,
+      "created_at": "2026-06-22",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.8
+    },
+    {
+      "title": "[Feature]: Independent run attestation — cryptographic proof that benchmark results reproduce",
+      "url": "https://github.com/wandb/wandb/issues/11948",
+      "repo": "wandb/wandb",
+      "stars": 11232,
+      "labels": [
+        "ty:feature"
+      ],
+      "comments": 3,
+      "created_at": "2026-05-27",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.5
+    },
+    {
+      "title": "[Bug-App]: Workspace jumps upward while scrolling due to Virtuoso compensation",
+      "url": "https://github.com/wandb/wandb/issues/12268",
+      "repo": "wandb/wandb",
+      "stars": 11232,
+      "labels": [],
+      "comments": 3,
+      "created_at": "2026-07-23",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.5
+    },
+    {
+      "title": "bug: project-level .vibe/config.toml replaces mcp_servers from global config instead of merging them",
+      "url": "https://github.com/mistralai/mistral-vibe/issues/840",
+      "repo": "mistralai/mistral-vibe",
+      "stars": 4844,
+      "labels": [
+        "bug",
+        "linear-sync",
+        "Settings"
+      ],
+      "comments": 1,
+      "created_at": "2026-06-25",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.5
+    },
+    {
+      "title": "OCR: Pipe characters | in table cell content are not escaped in Markdown output",
+      "url": "https://github.com/mistralai/client-python/issues/583",
+      "repo": "mistralai/client-python",
+      "stars": 762,
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-07-02",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.5
+    },
+    {
+      "title": "[Feature] Add `Conditions` array to RayJob",
+      "url": "https://github.com/ray-project/kuberay/issues/5152",
+      "repo": "ray-project/kuberay",
+      "stars": 2636,
+      "labels": [
+        "enhancement",
+        "triage"
+      ],
+      "comments": 1,
+      "created_at": "2026-08-15",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
       "score": 570.4
     },
     {
-      "title": "LoRA fine-tuning of an FP8 checkpoint is blocked: `get_peft_model` does not clear `validate_quantization_for_training` (QuantizationMethod.FP8)",
-      "url": "https://github.com/huggingface/transformers/issues/46736",
-      "repo": "huggingface/transformers",
-      "stars": 164181,
+      "title": "Verify evals on Papers with Code",
+      "url": "https://github.com/mistralai/search-starter-app/issues/16",
+      "repo": "mistralai/search-starter-app",
+      "stars": 26,
       "labels": [],
-      "comments": 7,
-      "created_at": "2026-06-17",
+      "comments": 0,
+      "created_at": "2026-07-22",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.4
+    },
+    {
+      "title": "[Feature Request]: Add support for custom input validation hooks",
+      "url": "https://github.com/mistralai/client-python/issues/573",
+      "repo": "mistralai/client-python",
+      "stars": 762,
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-06-20",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 570.2
+    },
+    {
+      "title": "merge_and_overwrite_lora writes a text-only config against full VLM weights when text_only=True",
+      "url": "https://github.com/unslothai/unsloth-zoo/issues/969",
+      "repo": "unslothai/unsloth-zoo",
+      "stars": 307,
+      "labels": [],
+      "comments": 3,
+      "created_at": "2026-07-31",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 569.7
+    },
+    {
+      "title": "Gemma4 12b MLX generates significantly slower than Gemma4 26b MLX",
+      "url": "https://github.com/ollama/ollama/issues/17362",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "bug",
+        "performance",
+        "macos"
+      ],
+      "comments": 18,
+      "created_at": "2026-07-23",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 543.5
+    },
+    {
+      "title": "GPT-5.5 Codex reasoning-token clustering at 516/1034/1552 may be leading to degraded performance on complex tasks",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "model-behavior",
+        "rate-limits"
+      ],
+      "comments": 183,
+      "created_at": "2026-06-27",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 540.1
+    },
+    {
+      "title": "Codex App is Unusable Slow with WSL as Agent environment",
+      "url": "https://github.com/openai/codex/issues/25715",
+      "repo": "openai/codex",
+      "stars": 106691,
+      "labels": [
+        "bug",
+        "windows-os",
+        "app",
+        "performance"
+      ],
+      "comments": 36,
+      "created_at": "2026-06-01",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 540.1
+    },
+    {
+      "title": "[RFC] DeviceInterface: Registry Support for PrivateUse1 Backends in torch.compile",
+      "url": "https://github.com/pytorch/pytorch/issues/189138",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "feature",
+        "triaged",
+        "large",
+        "module: backend",
+        "oncall: pt2",
+        "module: inductor",
+        "module: dynamo",
+        "module: PrivateUse1",
+        "bot-triaged"
+      ],
+      "comments": 22,
+      "created_at": "2026-07-07",
       "category": "onnx_export",
       "category_label": "ONNX/Export",
       "category_color": "#10b981",
       "career_weight": 85,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "LoRA fine-tuning of an FP8 checkpoint is blocked due to an issue with the `get_peft_model` function not clearing the `validate_quantization_for_training` flag when using QuantizationMethod.FP8.",
-        "first_step": "Investigate the `get_peft_model` function to understand why it's not clearing the `validate_quantization_for_training` flag when using QuantizationMethod.FP8.",
-        "career_signal": "This issue highlights the importance of proper quantization and fine-tuning techniques in AI model development, which can impact the performance and efficiency of AI models in real-world applications."
-      },
+      "ai_analysis": {},
+      "score": 539.8
+    },
+    {
+      "title": "Lower quantization formats cause model to emit unintelligible/~garbage responses",
+      "url": "https://github.com/ollama/ollama/issues/17614",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "bug"
+      ],
+      "comments": 11,
+      "created_at": "2026-08-07",
+      "category": "onnx_export",
+      "category_label": "ONNX/Export",
+      "category_color": "#10b981",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 536.5
+    },
+    {
+      "title": "Performance regression for Qwen3.6-35B-A3B on Apple M2 after upgrading Ollama",
+      "url": "https://github.com/ollama/ollama/issues/17583",
+      "repo": "ollama/ollama",
+      "stars": 178904,
+      "labels": [
+        "bug",
+        "performance",
+        "macos"
+      ],
+      "comments": 9,
+      "created_at": "2026-08-06",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 534.5
+    },
+    {
+      "title": "[torch.compile] Clarification/regression: Dynamo cache lookup guard eval is much slower in 2.12 vs 2.7 after `inline_inbuilt_nn_modules` became always True",
+      "url": "https://github.com/pytorch/pytorch/issues/185886",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "high priority",
+        "module: performance",
+        "triaged",
+        "module: regression",
+        "oncall: pt2",
+        "module: dynamo",
+        "module: guards",
+        "bot-triaged"
+      ],
+      "comments": 13,
+      "created_at": "2026-06-02",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 532.8
+    },
+    {
+      "title": "MetalConfig quantization: batched generate silently corrupts all rows after the first — affine_qmm_t computes only batch element 0 of 3D inputs (verified, one-line fix)",
+      "url": "https://github.com/huggingface/transformers/issues/47331",
+      "repo": "huggingface/transformers",
+      "stars": 164229,
+      "labels": [],
+      "comments": 7,
+      "created_at": "2026-07-15",
+      "category": "onnx_export",
+      "category_label": "ONNX/Export",
+      "category_color": "#10b981",
+      "career_weight": 85,
+      "difficulty": "HARD",
+      "time_estimate": "3-4 weeks",
+      "ai_analysis": {},
       "score": 531.4
+    },
+    {
+      "title": "[CUDA Graph] Size-specific ~2.1× slowdown for contiguous CUDA `Tensor.copy_` on GB200",
+      "url": "https://github.com/pytorch/pytorch/issues/191284",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "high priority",
+        "module: performance",
+        "module: cuda",
+        "triaged",
+        "has workaround",
+        "module: cuda graphs",
+        "topic: performance",
+        "bot-triaged"
+      ],
+      "comments": 10,
+      "created_at": "2026-07-28",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 529.8
+    },
+    {
+      "title": "Optimize Metal Kernels with sincos",
+      "url": "https://github.com/pytorch/pytorch/issues/184769",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "module: performance",
+        "triaged",
+        "module: complex",
+        "enhancement",
+        "module: mps",
+        "bot-triaged"
+      ],
+      "comments": 6,
+      "created_at": "2026-05-21",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 525.8
     },
     {
       "title": "Slow model download speed from Hugging Face Hub (1.11 GB model takes ~20 minutes on multiple devices)",
       "url": "https://github.com/huggingface/huggingface_hub/issues/4528",
       "repo": "huggingface/huggingface_hub",
-      "stars": 3813,
+      "stars": 3816,
       "labels": [
         "bug"
       ],
@@ -423,23 +2513,217 @@
       "career_weight": 85,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "Users are experiencing slow model download speeds from Hugging Face Hub, with a 1.11 GB model taking around 20 minutes to download on multiple devices.",
-        "first_step": "Investigate the network connection and ensure a stable and fast internet connection.",
-        "career_signal": "This issue highlights the importance of efficient data transfer in AI development, which is crucial for meeting project deadlines and delivering high-quality results."
-      },
+      "ai_analysis": {},
       "score": 521.6
+    },
+    {
+      "title": "[Bug] Unsloth Studio API inference: Custom model settings (context length, KV cache quantization) get ignored on model auto-load",
+      "url": "https://github.com/unslothai/unsloth/issues/7477",
+      "repo": "unslothai/unsloth",
+      "stars": 73607,
+      "labels": [
+        "bug"
+      ],
+      "comments": 4,
+      "created_at": "2026-07-26",
+      "category": "onnx_export",
+      "category_label": "ONNX/Export",
+      "category_color": "#10b981",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 521.6
+    },
+    {
+      "title": "Speed up SelectKBest with partition-based selection",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/34616",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 66972,
+      "labels": [
+        "Performance",
+        "Needs Benchmarks"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-31",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 520.1
+    },
+    {
+      "title": "[rl] vLLM torch.compile (VLLM_COMPILE) on the generator fails: inductor \"out variant should have at least one out arg\"",
+      "url": "https://github.com/pytorch/torchtitan/issues/3669",
+      "repo": "pytorch/torchtitan",
+      "stars": 5637,
+      "labels": [
+        "bug"
+      ],
+      "comments": 10,
+      "created_at": "2026-06-15",
+      "category": "onnx_export",
+      "category_label": "ONNX/Export",
+      "category_color": "#10b981",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 518.8
+    },
+    {
+      "title": "Add dedicated development and production modes to optimize app execution",
+      "url": "https://github.com/streamlit/streamlit/issues/16306",
+      "repo": "streamlit/streamlit",
+      "stars": 45565,
+      "labels": [
+        "type:enhancement",
+        "feature:cache",
+        "feature:config",
+        "area:debugging",
+        "feature:cli",
+        "area:server",
+        "feature:file-watcher"
+      ],
+      "comments": 2,
+      "created_at": "2026-08-03",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 516.3
+    },
+    {
+      "title": "[data] A fast upstream actor pool can starve a slow-starting downstream bottleneck",
+      "url": "https://github.com/ray-project/ray/issues/65540",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "performance",
+        "data",
+        "community-backlog"
+      ],
+      "comments": 2,
+      "created_at": "2026-08-17",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 516.1
+    },
+    {
+      "title": "Scalar quantization quantile clips outliers by vector count instead of value count",
+      "url": "https://github.com/qdrant/qdrant/issues/9902",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [],
+      "comments": 2,
+      "created_at": "2026-07-19",
+      "category": "onnx_export",
+      "category_label": "ONNX/Export",
+      "category_color": "#10b981",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 515.4
+    },
+    {
+      "title": "[serve] Direct ingress gRPC Metrics causes 5% lower throughput",
+      "url": "https://github.com/ray-project/ray/issues/65204",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "serve",
+        "performance"
+      ],
+      "comments": 0,
+      "created_at": "2026-08-04",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 515.3
+    },
+    {
+      "title": "[Data] Custom optimizer rules are documented but only reachable through private imports",
+      "url": "https://github.com/ray-project/ray/issues/65387",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "question",
+        "docs",
+        "data"
+      ],
+      "comments": 0,
+      "created_at": "2026-08-11",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 515.3
+    },
+    {
+      "title": "v1.18.2 UIO refactor silently moved HNSW graph links (and other indexes) from mmap to owned heap — +19 GB unreclaimable RSS per node, page cache starved, search tail latency regressed",
+      "url": "https://github.com/qdrant/qdrant/issues/9986",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-07-27",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 514.4
+    },
+    {
+      "title": "internal/imodels: package-level *Package cache leaks across scans, drives OOM in long-running embeddings",
+      "url": "https://github.com/google/osv-scanner/issues/2859",
+      "repo": "google/osv-scanner",
+      "stars": 10867,
+      "labels": [
+        "stale"
+      ],
+      "comments": 5,
+      "created_at": "2026-06-02",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 514.1
     },
     {
       "title": "[BUG] Tracking server OOM-killed by unbounded `GET /api/2.0/mlflow/metrics/get-history` for long metric series",
       "url": "https://github.com/mlflow/mlflow/issues/23702",
       "repo": "mlflow/mlflow",
-      "stars": 27544,
+      "stars": 27570,
       "labels": [
         "bug",
         "area/tracking"
       ],
-      "comments": 2,
+      "comments": 3,
       "created_at": "2026-05-30",
       "category": "performance",
       "category_label": "Performance",
@@ -447,18 +2731,50 @@
       "career_weight": 85,
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
-      "ai_analysis": {
-        "summary": "The tracking server is experiencing out-of-memory issues due to an unbounded GET request for long metric series.",
-        "first_step": "Investigate the root cause of the unbounded GET request and implement rate limiting or pagination to prevent excessive resource usage.",
-        "career_signal": "This issue highlights the importance of designing scalable and efficient APIs for AI applications, which can have a significant impact on the performance and reliability of machine learning workflows."
-      },
-      "score": 514.9
+      "ai_analysis": {},
+      "score": 513.4
+    },
+    {
+      "title": "web launcher: enabling --h2c disables read-timeout-based slowloris protection on the listener",
+      "url": "https://github.com/google/adk-go/issues/1224",
+      "repo": "google/adk-go",
+      "stars": 8669,
+      "labels": [
+        "enhancement"
+      ],
+      "comments": 4,
+      "created_at": "2026-07-29",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 513.0
+    },
+    {
+      "title": "Timeout retry in player_worker_decode runs emit() concurrently → \"generator already executing\", stream permanently frozen after one slow turn",
+      "url": "https://github.com/gradio-app/fastrtc/issues/431",
+      "repo": "gradio-app/fastrtc",
+      "stars": 4624,
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-06-11",
+      "category": "performance",
+      "category_label": "Performance",
+      "category_color": "#f59e0b",
+      "career_weight": 85,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 512.4
     },
     {
       "title": "feat(exa): add integration header and update search types",
       "url": "https://github.com/langchain-ai/langchain/issues/37701",
       "repo": "langchain-ai/langchain",
-      "stars": 144376,
+      "stars": 144503,
       "labels": [
         "feature request",
         "exa",
@@ -473,13 +2789,13 @@
       "difficulty": "EASY",
       "time_estimate": "1-3 days",
       "ai_analysis": {},
-      "score": 499.7
+      "score": 499.8
     },
     {
       "title": "[FR] Support dynamic agent root span identification for evaluation in nested traces",
       "url": "https://github.com/mlflow/mlflow/issues/23590",
       "repo": "mlflow/mlflow",
-      "stars": 27541,
+      "stars": 27570,
       "labels": [
         "enhancement",
         "area/evaluation",
@@ -497,13 +2813,66 @@
       "score": 491.2
     },
     {
+      "title": "asv benchmarks are broken with latest asv_runner",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/34563",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 66972,
+      "labels": [
+        "upstream bug"
+      ],
+      "comments": 3,
+      "created_at": "2026-07-24",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 490.9
+    },
+    {
       "title": "Proposal: Benchmarking on different PEFT techniques",
       "url": "https://github.com/huggingface/peft/issues/3363",
       "repo": "huggingface/peft",
-      "stars": 21557,
+      "stars": 21559,
       "labels": [],
-      "comments": 9,
+      "comments": 10,
       "created_at": "2026-06-27",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 490.8
+    },
+    {
+      "title": "llamaindex-openeval-adapter: convert core.evaluation evaluators/results to/from EvalPort (standalone package, not a PR)",
+      "url": "https://github.com/run-llama/llama_index/issues/22709",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [],
+      "comments": 1,
+      "created_at": "2026-08-16",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 490.3
+    },
+    {
+      "title": "Benchmarking LlamaIndex on KRB (Knowledge Retrieval Benchmark) — looking for a config",
+      "url": "https://github.com/run-llama/llama_index/issues/22254",
+      "repo": "run-llama/llama_index",
+      "stars": 51735,
+      "labels": [],
+      "comments": 3,
+      "created_at": "2026-07-06",
       "category": "benchmark",
       "category_label": "Benchmark",
       "category_color": "#ec4899",
@@ -517,7 +2886,7 @@
       "title": "[FR] Add new scorer: SubGoalCompletion scorer for per-subgoal LLM-judge evaluation of individual traces",
       "url": "https://github.com/mlflow/mlflow/issues/24442",
       "repo": "mlflow/mlflow",
-      "stars": 27541,
+      "stars": 27570,
       "labels": [
         "enhancement",
         "area/scoring",
@@ -539,7 +2908,7 @@
       "title": "Turkish DIK-style Syntactic Structure Benchmark Dataset",
       "url": "https://github.com/huggingface/datasets/issues/8302",
       "repo": "huggingface/datasets",
-      "stars": 21840,
+      "stars": 21841,
       "labels": [
         "enhancement"
       ],
@@ -555,10 +2924,48 @@
       "score": 487.8
     },
     {
+      "title": "Feature request: Evaluation of Approaches for Enabling BM25 Scoring on Existing Payload Fields",
+      "url": "https://github.com/qdrant/qdrant/issues/9779",
+      "repo": "qdrant/qdrant",
+      "stars": 34048,
+      "labels": [],
+      "comments": 2,
+      "created_at": "2026-07-10",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 486.2
+    },
+    {
+      "title": "[serve.llm] Add metrics for Ray Serve framework overhead on TTFT/TPOT",
+      "url": "https://github.com/ray-project/ray/issues/63585",
+      "repo": "ray-project/ray",
+      "stars": 43547,
+      "labels": [
+        "enhancement",
+        "serve",
+        "llm"
+      ],
+      "comments": 1,
+      "created_at": "2026-05-21",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 485.9
+    },
+    {
       "title": "[FR] End-to-end workflow for evaluation datasets in UI itself",
       "url": "https://github.com/mlflow/mlflow/issues/24069",
       "repo": "mlflow/mlflow",
-      "stars": 27544,
+      "stars": 27570,
       "labels": [
         "enhancement",
         "area/evaluation",
@@ -576,10 +2983,27 @@
       "score": 485.0
     },
     {
+      "title": "[DOC-FIX] Incorrect Bedrock model ID for Claude Sonnet 4 in evaluation quickstart (missing `-v1:0` version suffix)",
+      "url": "https://github.com/mlflow/mlflow/issues/25201",
+      "repo": "mlflow/mlflow",
+      "stars": 27570,
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-08-18",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 485.0
+    },
+    {
       "title": "Support structured metric breakdowns for evaluation metrics",
       "url": "https://github.com/mlflow/mlflow/issues/24949",
       "repo": "mlflow/mlflow",
-      "stars": 27544,
+      "stars": 27570,
       "labels": [
         "enhancement",
         "area/docs",
@@ -600,20 +3024,15 @@
       "score": 484.7
     },
     {
-      "title": "[BLOG] Agent Evaluation with Google ADK and MLflow",
-      "url": "https://github.com/mlflow/mlflow-website/issues/587",
-      "repo": "mlflow/mlflow-website",
-      "stars": 21,
+      "title": "Feature: span-level evaluation metrics for RAG pipelines in Weave traces",
+      "url": "https://github.com/wandb/weave/issues/6946",
+      "repo": "wandb/weave",
+      "stars": 1119,
       "labels": [
-        "ack/guide",
-        "ack/readme",
-        "ack/legal",
-        "blog/how-to",
-        "blog/features",
-        "topic/genai"
+        "enhancement"
       ],
-      "comments": 0,
-      "created_at": "2026-05-20",
+      "comments": 2,
+      "created_at": "2026-05-22",
       "category": "benchmark",
       "category_label": "Benchmark",
       "category_color": "#ec4899",
@@ -621,7 +3040,86 @@
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
       "ai_analysis": {},
-      "score": 482.9
+      "score": 483.8
+    },
+    {
+      "title": "EvalPort import/export for Weave Datasets and Evaluation results (adapter already built and shipped)",
+      "url": "https://github.com/wandb/weave/issues/7750",
+      "repo": "wandb/weave",
+      "stars": 1119,
+      "labels": [],
+      "comments": 0,
+      "created_at": "2026-08-14",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 483.0
+    },
+    {
+      "title": "[Bug]: `EvaluationLogger.log_summary(summary=..., auto_summarize=False)` duplicates the custom summary in the logged output",
+      "url": "https://github.com/wandb/weave/issues/7741",
+      "repo": "wandb/weave",
+      "stars": 1119,
+      "labels": [
+        "bug"
+      ],
+      "comments": 0,
+      "created_at": "2026-08-13",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 483.0
+    },
+    {
+      "title": "DISABLED test_index_propagation_to_dtype_inf_cpu (__main__.CpuTritonTests)",
+      "url": "https://github.com/pytorch/pytorch/issues/191159",
+      "repo": "pytorch/pytorch",
+      "stars": 102468,
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor"
+      ],
+      "comments": 36,
+      "created_at": "2026-07-27",
+      "category": "cuda_triton",
+      "category_label": "CUDA/Triton",
+      "category_color": "#ef4444",
+      "career_weight": 75,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {},
+      "score": 481.4
+    },
+    {
+      "title": "Add example for a productive review to the developer guide (documentation task)",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/34507",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 66972,
+      "labels": [
+        "Sprint",
+        "Needs work"
+      ],
+      "comments": 4,
+      "created_at": "2026-07-18",
+      "category": "documentation",
+      "category_label": "Documentation",
+      "category_color": "#64748b",
+      "career_weight": 50,
+      "difficulty": "EASY",
+      "time_estimate": "1-3 days",
+      "ai_analysis": {},
+      "score": 316.9
     }
   ]
 }
