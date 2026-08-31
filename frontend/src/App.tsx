@@ -53,7 +53,7 @@ export default function App() {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const res = await axios.get(DATA_URL);
+      const res = await axios.get(`${DATA_URL}?t=${Date.now()}`);
       setOpportunities(res.data.opportunities || []);
       setStats(res.data);
     } catch (e) {
