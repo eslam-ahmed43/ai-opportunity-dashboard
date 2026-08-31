@@ -1,6 +1,5 @@
 import os
 import json
-import re
 import time
 from datetime import datetime, timezone, timedelta
 from github import Github
@@ -15,63 +14,109 @@ client = OpenAI(
 TARGET_ORGS = [
     "langchain-ai", "mlflow", "gradio-app", "streamlit",
     "run-llama", "wandb", "scikit-learn", "keras-team",
-    "huggingface", "microsoft", "google", "openai",
-    "pytorch", "ray-project", "chroma-core", "qdrant",
-    "unslothai", "mistralai", "ollama", "axolotl-ai",
+    "huggingface", "microsoft", "pytorch", "ray-project",
+    "chroma-core", "qdrant", "unslothai", "mistralai",
+    "ollama", "axolotl-ai",
+]
+
+# Repos that don't accept external contributions
+SKIP_REPOS = [
+    "openai/codex",
+    "openai/chatgpt-retrieval-plugin",
+    "openai/openai-python",
+    "openai/openai-cookbook",
+    "microsoft/vscode",
+    "microsoft/TypeScript",
+    "google/jax",
+]
+
+# Labels that indicate internal team work
+SKIP_LABELS = [
+    "status:team-assigned", "status:in-linear", "has-closing-pr",
+    "wip", "in-progress", "assigned", "claimed",
+    "team:cats", "team:nodes", "team:core",
 ]
 
 CATEGORY_CONFIG = {
     "missing_model": {
-        "title_keywords": ["add support for", "model request", "add tokenizer", "new architecture", "implement paper", "add processor", "add config", "conversion script", "add model", "support for model"],
+        "title_keywords": [
+            "add support for", "model request", "add tokenizer",
+            "new architecture", "implement paper", "add processor",
+            "add config", "conversion script", "add model",
+            "support for model", "model card",
+        ],
         "body_keywords": ["arxiv", "paper", "architecture", "tokenizer"],
         "career_weight": 95,
         "label": "Missing Model/Architecture",
         "color": "#6366f1",
     },
     "research_impl": {
-        "title_keywords": ["implement paper", "paper implementation", "research implementation", "reproduce paper", "implement arxiv", "add paper"],
+        "title_keywords": [
+            "implement paper", "paper implementation",
+            "research implementation", "reproduce paper",
+            "implement arxiv", "add paper",
+        ],
         "body_keywords": ["arxiv.org", "arxiv:", "paper:", "reproduce"],
         "career_weight": 95,
         "label": "Research Implementation",
         "color": "#8b5cf6",
     },
     "performance": {
-        "title_keywords": ["performance", "slow", "optimize", "speed up", "latency", "throughput", "bottleneck", "oom", "out of memory", "memory usage"],
+        "title_keywords": [
+            "performance", "slow", "optimize", "speed up",
+            "latency", "throughput", "bottleneck", "oom",
+            "out of memory", "memory usage",
+        ],
         "body_keywords": [],
         "career_weight": 85,
         "label": "Performance",
         "color": "#f59e0b",
     },
     "onnx_export": {
-        "title_keywords": ["onnx", "tensorrt", "flash attention", "torch.compile", "quantization", "export model"],
+        "title_keywords": [
+            "onnx", "tensorrt", "flash attention",
+            "torch.compile", "quantization", "export model",
+        ],
         "body_keywords": [],
         "career_weight": 85,
         "label": "ONNX/Export",
         "color": "#10b981",
     },
     "missing_integration": {
-        "title_keywords": ["add integration", "add support for", "add provider", "missing provider", "add backend", "add llm", "add embedding"],
+        "title_keywords": [
+            "add integration", "add support for", "add provider",
+            "missing provider", "add backend", "add llm",
+            "add embedding", "support for provider",
+        ],
         "body_keywords": [],
         "career_weight": 80,
         "label": "Missing Integration",
         "color": "#3b82f6",
     },
     "benchmark": {
-        "title_keywords": ["benchmark", "add benchmark", "evaluation", "add evaluation", "leaderboard", "add metrics"],
+        "title_keywords": [
+            "benchmark", "add benchmark", "evaluation",
+            "add evaluation", "leaderboard", "add metrics",
+        ],
         "body_keywords": [],
         "career_weight": 80,
         "label": "Benchmark",
         "color": "#ec4899",
     },
     "cuda_triton": {
-        "title_keywords": ["cuda kernel", "triton kernel", "gpu optimization", "triton"],
+        "title_keywords": [
+            "cuda kernel", "triton kernel", "gpu optimization", "triton",
+        ],
         "body_keywords": ["cuda", "triton", "gpu kernel"],
         "career_weight": 75,
         "label": "CUDA/Triton",
         "color": "#ef4444",
     },
     "documentation": {
-        "title_keywords": ["add tutorial", "add example", "add notebook", "missing docs", "add documentation"],
+        "title_keywords": [
+            "add tutorial", "add example", "add notebook",
+            "missing docs", "add documentation",
+        ],
         "body_keywords": [],
         "career_weight": 50,
         "label": "Documentation",
@@ -98,8 +143,14 @@ def detect_category(title, body, labels):
 def estimate_difficulty(title, body, labels):
     combined = (title + " " + body).lower()
     labels_lower = [l.lower() for l in labels]
-    hard_signals = ["cuda kernel", "triton", "distributed", "deepspeed", "backward pass", "gradient", "race condition", "memory leak"]
-    easy_signals = ["good first issue", "good-first-issue", "beginner", "easy", "starter", "documentation", "simple"]
+    hard_signals = [
+        "cuda kernel", "triton", "distributed", "deepspeed",
+        "backward pass", "gradient", "race condition", "memory leak",
+    ]
+    easy_signals = [
+        "good first issue", "good-first-issue", "beginner",
+        "easy", "starter", "documentation", "simple",
+    ]
     hard_count = sum(1 for s in hard_signals if s in combined)
     easy_count = sum(1 for s in easy_signals if s in combined or s in labels_lower)
     if hard_count >= 2:
@@ -112,6 +163,45 @@ def estimate_difficulty(title, body, labels):
         return "MEDIUM", "3-7 days"
     else:
         return "EASY-MEDIUM", "2-5 days"
+
+
+def is_contributable(issue, repo_full_name):
+    """Check if an issue is actually open for external contributions"""
+
+    # Skip internal repos
+    if repo_full_name in SKIP_REPOS:
+        return False
+
+    labels_lower = [l.name.lower() for l in issue.labels]
+
+    # Skip internal team labels
+    if any(s in labels_lower for s in SKIP_LABELS):
+        return False
+
+    # Skip if already assigned
+    if issue.assignees:
+        return False
+
+    # Skip if linked to a PR (has fix in progress)
+    if any(l in labels_lower for l in ["has-closing-pr", "has pr"]):
+        return False
+
+    # Check comments for signs someone is working on it
+    try:
+        comments = list(issue.get_comments())[:10]
+        for comment in comments:
+            body_lower = (comment.body or "").lower()
+            if any(phrase in body_lower for phrase in [
+                "i picked this up", "already working on this",
+                "i have started", "i am working on this",
+                "submitted a fix", "fix has been", "pr #",
+                "pull request", "merged in",
+            ]):
+                return False
+    except Exception:
+        pass
+
+    return True
 
 
 def calculate_score(issue_data):
@@ -136,11 +226,22 @@ def analyze_with_ai(title, body, category):
         response = client.chat.completions.create(
             model="meta/llama-3.1-8b-instruct",
             messages=[
-                {"role": "system", "content": "You analyze GitHub issues for AI developers. Return ONLY valid JSON with single-line strings."},
-                {"role": "user", "content": (
-                    f"Analyze this GitHub issue:\nTitle: {title}\nCategory: {config.get('label', category)}\nDescription: {body[:300]}\n\n"
-                    'Return ONLY JSON: {"summary":"one sentence","first_step":"exact first action","career_signal":"why this matters for AI jobs"}'
-                )}
+                {
+                    "role": "system",
+                    "content": "You analyze GitHub issues for AI developers. Return ONLY valid JSON with single-line strings."
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"Analyze this GitHub issue:\n"
+                        f"Title: {title}\n"
+                        f"Category: {config.get('label', category)}\n"
+                        f"Description: {body[:300]}\n\n"
+                        'Return ONLY JSON: {"summary":"one sentence what needs to be done",'
+                        '"first_step":"exact first action to take",'
+                        '"career_signal":"why this matters for AI jobs"}'
+                    )
+                }
             ],
             max_completion_tokens=200,
             temperature=0.1
@@ -166,9 +267,13 @@ def scan():
     since_date = (datetime.now(timezone.utc) - timedelta(days=90)).strftime("%Y-%m-%d")
 
     for org in TARGET_ORGS:
+        print(f"  Scanning org: {org}")
         try:
             results = github.search_issues(
-                query=f"org:{org} is:issue is:open no:assignee created:>={since_date}",
+                query=(
+                    f"org:{org} is:issue is:open no:assignee "
+                    f"created:>={since_date}"
+                ),
                 sort="comments",
                 order="desc"
             )
@@ -180,26 +285,32 @@ def scan():
                     continue
                 if issue.pull_request:
                     continue
-                if issue.assignees:
+
+                repo_name = issue.repository.full_name
+
+                # Check if contributable
+                if not is_contributable(issue, repo_name):
                     continue
+
                 labels = [l.name for l in issue.labels]
-                labels_lower = [l.lower() for l in labels]
-                if any(s in labels_lower for s in ["status:team-assigned", "has-closing-pr", "wip", "in-progress"]):
-                    continue
                 body = (issue.body or "")[:600]
                 category, career_weight = detect_category(issue.title, body, labels)
+
                 if category == "general":
                     continue
+
                 difficulty, time_est = estimate_difficulty(issue.title, body, labels)
+
                 try:
-                    repo = github.get_repo(issue.repository.full_name)
+                    repo = github.get_repo(repo_name)
                     stars = repo.stargazers_count
                 except Exception:
                     stars = 0
+
                 issue_data = {
                     "title": issue.title,
                     "url": issue.html_url,
-                    "repo": issue.repository.full_name,
+                    "repo": repo_name,
                     "stars": stars,
                     "labels": labels,
                     "comments": issue.comments,
@@ -213,17 +324,21 @@ def scan():
                     "ai_analysis": {},
                 }
                 issue_data["score"] = calculate_score(issue_data)
+
                 seen_urls.add(issue.html_url)
                 opportunities.append(issue_data)
                 count += 1
+
         except Exception as e:
             if "422" not in str(e) and "403" not in str(e):
-                print(f"Error {org}: {e}")
+                print(f"  Error {org}: {e}")
             continue
 
     opportunities.sort(key=lambda x: -x["score"])
 
-    print(f"Found {len(opportunities)} opportunities. Analyzing top 20...")
+    print(f"Found {len(opportunities)} contributable opportunities.")
+    print("Analyzing top 20 with AI...")
+
     for i, opp in enumerate(opportunities[:20]):
         analysis = analyze_with_ai(opp["title"], opp.get("body", ""), opp["category"])
         opp["ai_analysis"] = analysis
@@ -240,7 +355,7 @@ def scan():
     with open("frontend/public/opportunities.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"Saved {len(opportunities)} opportunities")
+    print(f"Saved {len(opportunities)} opportunities.")
 
 
 if __name__ == "__main__":
