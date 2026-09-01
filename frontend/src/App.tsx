@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { ExternalLink, GitBranch, Star, MessageSquare, Clock, Filter } from "lucide-react";
 
-const DATA_URL = "/opportunities.json";
+const DATA_URL = "https://raw.githubusercontent.com/eslam-ahmed43/ai-opportunity-dashboard/main/frontend/public/opportunities.json";
 
 interface Opportunity {
   title: string;
