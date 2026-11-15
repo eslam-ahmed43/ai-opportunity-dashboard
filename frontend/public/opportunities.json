@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-11-15 06:23:38",
-  "next_update": "2026-11-15 11:23:38",
+  "last_updated": "2026-11-15 17:21:07",
+  "next_update": "2026-11-15 22:21:07",
   "total": 132,
   "opportunities": [
     {
       "title": "Preview releases are annoying",
       "url": "https://github.com/microsoft/PowerToys/issues/50003",
       "repo": "microsoft/PowerToys",
-      "stars": 140989,
+      "stars": 141005,
       "labels": [
         "Issue-Bug",
         "Needs-Triage"
@@ -27,7 +27,7 @@
       "title": "OSC 52 clipboard write freezes the UI thread for ~10s when another process holds the clipboard",
       "url": "https://github.com/microsoft/terminal/issues/20819",
       "repo": "microsoft/terminal",
-      "stars": 105385,
+      "stars": 105390,
       "labels": [
         "Issue-Bug",
         "Needs-Triage"
@@ -47,7 +47,7 @@
       "title": "PowerToys UI fails to launch (runs in background only) despite all troubleshooting steps",
       "url": "https://github.com/microsoft/PowerToys/issues/52049",
       "repo": "microsoft/PowerToys",
-      "stars": 140989,
+      "stars": 141005,
       "labels": [
         "Issue-Bug",
         "Product-Settings"
@@ -67,7 +67,7 @@
       "title": "SHIFT(hold) + NUMBER not working to switch between Fancy zones personal layouts",
       "url": "https://github.com/microsoft/PowerToys/issues/50149",
       "repo": "microsoft/PowerToys",
-      "stars": 140989,
+      "stars": 141005,
       "labels": [
         "Issue-Bug",
         "Product-FancyZones",
@@ -85,10 +85,29 @@
       "score": 595.0
     },
     {
+      "title": "Native TP has no KV-head replication: tp_size > num_key_value_heads fails mid-forward",
+      "url": "https://github.com/huggingface/transformers/issues/48307",
+      "repo": "huggingface/transformers",
+      "stars": 168991,
+      "labels": [
+        "bug"
+      ],
+      "comments": 11,
+      "created_at": "2026-08-25",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {},
+      "score": 594.1
+    },
+    {
       "title": "AutoTokenizer with tokenizer_class=LlamaTokenizerFast silently builds a sentencepiece pipeline for a byte-level BPE tokenizer.json, dropping all CJK input",
       "url": "https://github.com/huggingface/transformers/issues/49252",
       "repo": "huggingface/transformers",
-      "stars": 168996,
+      "stars": 168991,
       "labels": [
         "bug"
       ],
@@ -107,7 +126,7 @@
       "title": "[LLM-jp-4] parser for harmony output with a space after special tokens",
       "url": "https://github.com/ollama/ollama/issues/18728",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [],
       "comments": 8,
       "created_at": "2026-10-01",
@@ -124,7 +143,7 @@
       "title": "Latest update broke Mouse Without Borders: Old key not accepted, and unable to generate new key.",
       "url": "https://github.com/microsoft/PowerToys/issues/51666",
       "repo": "microsoft/PowerToys",
-      "stars": 140989,
+      "stars": 141005,
       "labels": [
         "Issue-Bug",
         "Needs-Triage",
@@ -145,7 +164,7 @@
       "title": "Mouse Jump crashes when pressing Windows key+Shift+D",
       "url": "https://github.com/microsoft/PowerToys/issues/50424",
       "repo": "microsoft/PowerToys",
-      "stars": 140989,
+      "stars": 141005,
       "labels": [
         "Issue-Bug",
         "Needs-Triage",
@@ -163,10 +182,27 @@
       "score": 592.0
     },
     {
-      "title": "Native TP has no KV-head replication: tp_size > num_key_value_heads fails mid-forward",
-      "url": "https://github.com/huggingface/transformers/issues/48307",
+      "title": "Mistral Large 4: LeRoPE alpha is silently frozen during full-parameter training",
+      "url": "https://github.com/huggingface/transformers/issues/50622",
       "repo": "huggingface/transformers",
-      "stars": 168996,
+      "stars": 168991,
+      "labels": [],
+      "comments": 8,
+      "created_at": "2026-11-11",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "MEDIUM-HARD",
+      "time_estimate": "1-2 weeks",
+      "ai_analysis": {},
+      "score": 591.1
+    },
+    {
+      "title": "Native TP breaks on Qwen3.5/3.6 hybrids: reshape error in linear-attention layers",
+      "url": "https://github.com/huggingface/transformers/issues/48306",
+      "repo": "huggingface/transformers",
+      "stars": 168991,
       "labels": [
         "bug"
       ],
@@ -182,27 +218,10 @@
       "score": 591.1
     },
     {
-      "title": "Mistral Large 4: LeRoPE alpha is silently frozen during full-parameter training",
-      "url": "https://github.com/huggingface/transformers/issues/50622",
-      "repo": "huggingface/transformers",
-      "stars": 168996,
-      "labels": [],
-      "comments": 8,
-      "created_at": "2026-11-11",
-      "category": "research_impl",
-      "category_label": "Research Implementation",
-      "category_color": "#8b5cf6",
-      "career_weight": 95,
-      "difficulty": "MEDIUM-HARD",
-      "time_estimate": "1-2 weeks",
-      "ai_analysis": {},
-      "score": 591.1
-    },
-    {
       "title": "0xc0000005 access violation loading ANY model on Vulkan (AMD RX 6800 XT, driver 32.0.21045.5002)",
       "url": "https://github.com/ollama/ollama/issues/18557",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [
         "needs more info"
       ],
@@ -218,29 +237,10 @@
       "score": 590.4
     },
     {
-      "title": "Native TP breaks on Qwen3.5/3.6 hybrids: reshape error in linear-attention layers",
-      "url": "https://github.com/huggingface/transformers/issues/48306",
-      "repo": "huggingface/transformers",
-      "stars": 168996,
-      "labels": [
-        "bug"
-      ],
-      "comments": 6,
-      "created_at": "2026-08-25",
-      "category": "missing_model",
-      "category_label": "Missing Model/Architecture",
-      "category_color": "#6366f1",
-      "career_weight": 95,
-      "difficulty": "MEDIUM-HARD",
-      "time_estimate": "1-2 weeks",
-      "ai_analysis": {},
-      "score": 589.1
-    },
-    {
       "title": "MoE models crash with \"ROCm error: no kernel image is available\" when split across mixed AMD GPU architectures (gfx1200 + gfx1201)",
       "url": "https://github.com/ollama/ollama/issues/18162",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [
         "bug"
       ],
@@ -259,7 +259,7 @@
       "title": "Qwen3.5 4B returns thinking-only responses for a long conversation on Ollama 0.40.2",
       "url": "https://github.com/ollama/ollama/issues/18916",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [
         "bug"
       ],
@@ -278,7 +278,7 @@
       "title": "Add support for NumPy `StringDType`",
       "url": "https://github.com/scikit-learn/scikit-learn/issues/34946",
       "repo": "scikit-learn/scikit-learn",
-      "stars": 68183,
+      "stars": 68185,
       "labels": [
         "New Feature"
       ],
@@ -297,7 +297,7 @@
       "title": "[CUDA] CUDAGuard does not establish the current CUDA context on a fresh thread",
       "url": "https://github.com/pytorch/pytorch/issues/195256",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "module: cuda",
         "triaged",
@@ -318,7 +318,7 @@
       "title": "[WSL2] Ineffective POSIX_FADV_DONTNEED causes persistent page-cache growth and Windows host memory depletion despite autoMemoryReclaim=dropCache",
       "url": "https://github.com/microsoft/WSL/issues/42123",
       "repo": "microsoft/WSL",
-      "stars": 34388,
+      "stars": 34390,
       "labels": [
         "bydesign",
         "wsl2"
@@ -338,7 +338,7 @@
       "title": "Add SemanticTextSplitter with dual local/global similarity scoring",
       "url": "https://github.com/langchain-ai/langchain/issues/40004",
       "repo": "langchain-ai/langchain",
-      "stars": 149528,
+      "stars": 149559,
       "labels": [
         "feature request",
         "external"
@@ -358,7 +358,7 @@
       "title": "[dynamo] Missing `return` in `BuiltinVariable.call_method` `__hash__` branch graph-breaks unbound `X.__hash__(x)` calls",
       "url": "https://github.com/pytorch/pytorch/issues/201744",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "triaged",
         "actionable",
@@ -382,7 +382,7 @@
       "title": "[MPS] torch.compile exceeds Metal's buffer limit in Qwen GatedDeltaNet",
       "url": "https://github.com/pytorch/pytorch/issues/201864",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "triaged",
         "enhancement",
@@ -403,7 +403,7 @@
       "title": "[RFC][Data] Add read_hive datasource for Apache Hive",
       "url": "https://github.com/ray-project/ray/issues/65978",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "question",
         "usability",
@@ -425,7 +425,7 @@
       "title": "Get-WinGetPackage in 1.29.380 fails with \"Failed to create instance: -2147023174\" in an elevated PowerShell session",
       "url": "https://github.com/microsoft/winget-cli/issues/6560",
       "repo": "microsoft/winget-cli",
-      "stars": 26606,
+      "stars": 26607,
       "labels": [
         "Issue-Bug",
         "PowerShell"
@@ -445,7 +445,7 @@
       "title": "[Feature] support automatic split hot/cold MoE experts on GPU and CPU",
       "url": "https://github.com/unslothai/unsloth/issues/14484",
       "repo": "unslothai/unsloth",
-      "stars": 79520,
+      "stars": 79555,
       "labels": [
         "feature request"
       ],
@@ -481,7 +481,7 @@
       "title": "[Feature] kromoss support in studio",
       "url": "https://github.com/unslothai/unsloth/issues/17552",
       "repo": "unslothai/unsloth",
-      "stars": 79520,
+      "stars": 79555,
       "labels": [
         "feature request"
       ],
@@ -497,27 +497,49 @@
       "score": 580.4
     },
     {
-      "title": "[Bug][ROCm] GDN causal conv1d falls back to MIOpen on gfx1151 - the HIP gate costs 3.1x step time, the Triton kernel is correct",
-      "url": "https://github.com/unslothai/unsloth/issues/17734",
+      "title": "[Bug] \"Open links in: Default browser\" is ignored and \"Run scripts\" re-prompts despite \"Always allow\"",
+      "url": "https://github.com/unslothai/unsloth/issues/17837",
       "repo": "unslothai/unsloth",
-      "stars": 79520,
-      "labels": [],
+      "stars": 79555,
+      "labels": [
+        "feature request",
+        "bug"
+      ],
       "comments": 0,
-      "created_at": "2026-11-14",
+      "created_at": "2026-11-15",
       "category": "research_impl",
       "category_label": "Research Implementation",
       "category_color": "#8b5cf6",
       "career_weight": 95,
-      "difficulty": "MEDIUM-HARD",
-      "time_estimate": "1-2 weeks",
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
       "ai_analysis": {},
       "score": 580.1
+    },
+    {
+      "title": "Division by zero error on the bagging metaclassifier with MLP estimator when max_samples argument is low",
+      "url": "https://github.com/scikit-learn/scikit-learn/issues/35381",
+      "repo": "scikit-learn/scikit-learn",
+      "stars": 68185,
+      "labels": [
+        "Bug"
+      ],
+      "comments": 2,
+      "created_at": "2026-11-11",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 580.0
     },
     {
       "title": "BUG: `QuantileTransformer()` sub-sampling impact is too high for sparse matrices",
       "url": "https://github.com/scikit-learn/scikit-learn/issues/34857",
       "repo": "scikit-learn/scikit-learn",
-      "stars": 68183,
+      "stars": 68185,
       "labels": [
         "Bug"
       ],
@@ -536,7 +558,7 @@
       "title": "[Bug]: Memory silently evicts the system message from chat history once the token limit is reached",
       "url": "https://github.com/run-llama/llama_index/issues/23144",
       "repo": "run-llama/llama_index",
-      "stars": 52905,
+      "stars": 52911,
       "labels": [
         "bug",
         "triage"
@@ -556,7 +578,7 @@
       "title": "[Bug]: CBEvent assigns generated uuid to self.id instead of self.id_, so events without an id all share id_=\"\"",
       "url": "https://github.com/run-llama/llama_index/issues/23288",
       "repo": "run-llama/llama_index",
-      "stars": 52905,
+      "stars": 52911,
       "labels": [
         "bug",
         "triage"
@@ -573,27 +595,10 @@
       "score": 578.4
     },
     {
-      "title": "FSDP2 with `reshard_after_forward=False`: `disable_adapter()` leaves LoRA frozen and `merge_adapter()` is lost at reshard",
-      "url": "https://github.com/huggingface/peft/issues/3800",
-      "repo": "huggingface/peft",
-      "stars": 21889,
-      "labels": [],
-      "comments": 10,
-      "created_at": "2026-09-23",
-      "category": "research_impl",
-      "category_label": "Research Implementation",
-      "category_color": "#8b5cf6",
-      "career_weight": 95,
-      "difficulty": "EASY-MEDIUM",
-      "time_estimate": "2-5 days",
-      "ai_analysis": {},
-      "score": 578.3
-    },
-    {
       "title": "Functional API: crash recovery can replay stale downstream result after upstream task retry (SQLite/SIGKILL)",
       "url": "https://github.com/langchain-ai/langgraph/issues/9546",
       "repo": "langchain-ai/langgraph",
-      "stars": 44978,
+      "stars": 44992,
       "labels": [
         "external"
       ],
@@ -609,30 +614,10 @@
       "score": 578.0
     },
     {
-      "title": "[Bug]: SentenceSplitter can emit chunks over chunk_size after whitespace stripping",
-      "url": "https://github.com/run-llama/llama_index/issues/23575",
-      "repo": "run-llama/llama_index",
-      "stars": 52905,
-      "labels": [
-        "bug",
-        "triage"
-      ],
-      "comments": 1,
-      "created_at": "2026-10-18",
-      "category": "missing_model",
-      "category_label": "Missing Model/Architecture",
-      "category_color": "#6366f1",
-      "career_weight": 95,
-      "difficulty": "EASY-MEDIUM",
-      "time_estimate": "2-5 days",
-      "ai_analysis": {},
-      "score": 577.9
-    },
-    {
       "title": "[Bug]: RecursiveRetriever retains lower-scoring duplicates depending on traversal order",
       "url": "https://github.com/run-llama/llama_index/issues/23689",
       "repo": "run-llama/llama_index",
-      "stars": 52905,
+      "stars": 52911,
       "labels": [
         "bug",
         "triage"
@@ -652,7 +637,7 @@
       "title": "[Bug]: KeywordTable.node_ids raises on an empty keyword index",
       "url": "https://github.com/run-llama/llama_index/issues/23359",
       "repo": "run-llama/llama_index",
-      "stars": 52905,
+      "stars": 52911,
       "labels": [],
       "comments": 1,
       "created_at": "2026-10-04",
@@ -692,7 +677,7 @@
       "title": "[Bug]: CodeSplitter chunk_lines and chunk_lines_overlap are silently ignored",
       "url": "https://github.com/run-llama/llama_index/issues/23027",
       "repo": "run-llama/llama_index",
-      "stars": 52905,
+      "stars": 52911,
       "labels": [
         "bug",
         "triage"
@@ -712,7 +697,7 @@
       "title": "[Bug]: PrevNextNodePostprocessor loses retrieved scores when neighbor windows overlap",
       "url": "https://github.com/run-llama/llama_index/issues/23199",
       "repo": "run-llama/llama_index",
-      "stars": 52905,
+      "stars": 52911,
       "labels": [],
       "comments": 3,
       "created_at": "2026-09-23",
@@ -726,10 +711,30 @@
       "score": 577.4
     },
     {
+      "title": "[Bug]: SentenceSplitter can emit chunks over chunk_size after whitespace stripping",
+      "url": "https://github.com/run-llama/llama_index/issues/23575",
+      "repo": "run-llama/llama_index",
+      "stars": 52911,
+      "labels": [
+        "bug",
+        "triage"
+      ],
+      "comments": 3,
+      "created_at": "2026-10-18",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 577.4
+    },
+    {
       "title": "Command resume misclassifies ordinary dictionary values as interrupt maps",
       "url": "https://github.com/langchain-ai/langgraph/issues/8693",
       "repo": "langchain-ai/langgraph",
-      "stars": 44978,
+      "stars": 44992,
       "labels": [
         "external"
       ],
@@ -748,7 +753,7 @@
       "title": "`lerobot/smolvla_libero` ships `n_action_steps=50`, which costs about 20 pp on LIBERO",
       "url": "https://github.com/huggingface/lerobot/issues/4614",
       "repo": "huggingface/lerobot",
-      "stars": 28883,
+      "stars": 28893,
       "labels": [
         "bug",
         "documentation",
@@ -774,7 +779,7 @@
       "title": "Track native Windows controller and artifact portability",
       "url": "https://github.com/huggingface/Repo2RLEnv/issues/130",
       "repo": "huggingface/Repo2RLEnv",
-      "stars": 787,
+      "stars": 788,
       "labels": [],
       "comments": 10,
       "created_at": "2026-09-15",
@@ -791,7 +796,7 @@
       "title": "Keyed `st.dataframe` / `st.data_editor` keep positional selection and edit state across a data change, so actions land on the wrong row",
       "url": "https://github.com/streamlit/streamlit/issues/17026",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:enhancement",
         "feature:st.dataframe",
@@ -813,7 +818,7 @@
       "title": "Frontend uses user-controlled file name as FormData field name in file upload",
       "url": "https://github.com/streamlit/streamlit/issues/16691",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:enhancement",
         "area:security",
@@ -836,7 +841,7 @@
       "title": "JsonPlusSerializer retains mutable bytearray references, changing saved checkpoints after put",
       "url": "https://github.com/langchain-ai/langgraph/issues/9365",
       "repo": "langchain-ai/langgraph",
-      "stars": 44978,
+      "stars": 44992,
       "labels": [
         "external"
       ],
@@ -855,7 +860,7 @@
       "title": "A tuple reducer permanently breaks a thread on resume: BinaryOperatorAggregate.from_checkpoint restores the value as a list",
       "url": "https://github.com/langchain-ai/langgraph/issues/9086",
       "repo": "langchain-ai/langgraph",
-      "stars": 44978,
+      "stars": 44992,
       "labels": [
         "external"
       ],
@@ -874,7 +879,7 @@
       "title": "InternalError: Error creating hnsw segment reader: Nothing found on disk after in-process LRU cache eviction — HNSW files are present on disk",
       "url": "https://github.com/chroma-core/chroma/issues/7946",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [],
       "comments": 6,
       "created_at": "2026-10-22",
@@ -891,7 +896,7 @@
       "title": "`st.dataframe` toolbar stays invisible (opacity 0) while its buttons have keyboard focus",
       "url": "https://github.com/streamlit/streamlit/issues/17337",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:enhancement",
         "area:frontend",
@@ -914,7 +919,7 @@
       "title": "A custom component cannot own the `r` or `c` keys: the app-level shortcuts fire regardless",
       "url": "https://github.com/streamlit/streamlit/issues/16608",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:bug",
         "area:frontend",
@@ -940,7 +945,7 @@
       "title": "[Dashboard] Support showing logs from dead nodes in the Logs tab",
       "url": "https://github.com/ray-project/ray/issues/65696",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "enhancement",
         "P1",
@@ -964,7 +969,7 @@
       "title": "*.ini files not uploaded when part of a folder with st.file_uploader, but upload fine as single file",
       "url": "https://github.com/streamlit/streamlit/issues/17234",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:bug",
         "type:regression",
@@ -988,7 +993,7 @@
       "title": "langchain-quickjs: the eval tool description does not state that only one eval may be in flight",
       "url": "https://github.com/langchain-ai/deepagents/issues/6311",
       "repo": "langchain-ai/deepagents",
-      "stars": 31290,
+      "stars": 31299,
       "labels": [
         "type:bug",
         "org:external",
@@ -1011,7 +1016,7 @@
       "title": "Checkpoint serde silently deserializes dataclasses with init=False fields to None",
       "url": "https://github.com/langchain-ai/langgraph/issues/9021",
       "repo": "langchain-ai/langgraph",
-      "stars": 44978,
+      "stars": 44992,
       "labels": [
         "external"
       ],
@@ -1030,7 +1035,7 @@
       "title": "Async ToolNode lets sibling tools keep running after the graph reports failure",
       "url": "https://github.com/langchain-ai/langgraph/issues/9678",
       "repo": "langchain-ai/langgraph",
-      "stars": 44978,
+      "stars": 44992,
       "labels": [
         "external"
       ],
@@ -1049,7 +1054,7 @@
       "title": "[Data] Unicode filter literals cause UnicodeEncodeError in operator metrics after #58675",
       "url": "https://github.com/ray-project/ray/issues/67230",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "data",
         "stability",
@@ -1087,7 +1092,7 @@
       "title": "SIGBUS (exit 135) when disk fills during gridstore mmap writes; quota and WAL guard don't prevent it",
       "url": "https://github.com/qdrant/qdrant/issues/11315",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [],
       "comments": 2,
       "created_at": "2026-10-23",
@@ -1104,7 +1109,7 @@
       "title": "[1.15.5 / 1.20.0] Greek Snowball stemming of αντίθετε panics during upsert and query",
       "url": "https://github.com/qdrant/qdrant/issues/11386",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [
         "bug",
         "accepted",
@@ -1125,7 +1130,7 @@
       "title": "[Core|Sandbox] Image Streaming Solution for Ray Sandbox",
       "url": "https://github.com/ray-project/ray/issues/68074",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "enhancement",
         "triage",
@@ -1149,7 +1154,7 @@
       "title": "[Bug]: GET /indexing_status returns HTTP 500: Method scout_logs is not implemented",
       "url": "https://github.com/chroma-core/chroma/issues/7929",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [
         "bug"
       ],
@@ -1168,7 +1173,7 @@
       "title": "Schema enforcement drops the signature for pandas nullable integer and boolean columns containing missing values",
       "url": "https://github.com/mlflow/mlflow/issues/25593",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [],
       "comments": 2,
       "created_at": "2026-09-04",
@@ -1185,7 +1190,7 @@
       "title": "Column width in `st.dataframe` not properly calculated for long text columns",
       "url": "https://github.com/streamlit/streamlit/issues/17012",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:enhancement",
         "area:frontend",
@@ -1206,7 +1211,7 @@
       "title": "st.popover stays open and floats when its tab or expander is hidden",
       "url": "https://github.com/streamlit/streamlit/issues/17901",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:bug",
         "type:regression",
@@ -1232,7 +1237,7 @@
       "title": "`st.altair_chart` logs \"Infinite extent\" Vega console warnings on render due to empty initial view run",
       "url": "https://github.com/streamlit/streamlit/issues/16614",
       "repo": "streamlit/streamlit",
-      "stars": 46359,
+      "stars": 46364,
       "labels": [
         "type:enhancement",
         "papercut",
@@ -1255,7 +1260,7 @@
       "title": "[RFC] Support Anticipatory Routing to mitigate MoE training loss spikes",
       "url": "https://github.com/pytorch/torchtitan/issues/4349",
       "repo": "pytorch/torchtitan",
-      "stars": 5907,
+      "stars": 5908,
       "labels": [],
       "comments": 6,
       "created_at": "2026-08-27",
@@ -1272,7 +1277,7 @@
       "title": "SkillsMiddleware silently skips SKILL.md files saved with a UTF-8 BOM",
       "url": "https://github.com/langchain-ai/deepagents/issues/6811",
       "repo": "langchain-ai/deepagents",
-      "stars": 31290,
+      "stars": 31299,
       "labels": [
         "type:bug",
         "topic:middleware",
@@ -1297,7 +1302,7 @@
       "title": "Deleted documents remain in embeddings_queue on 1.5.9 with automatically_purge=true (reproduces closed #3793)",
       "url": "https://github.com/chroma-core/chroma/issues/7659",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [],
       "comments": 4,
       "created_at": "2026-08-29",
@@ -1314,7 +1319,7 @@
       "title": "Aliases are not migrated to consensus when a single node switches to cluster mode; joining peers miss them",
       "url": "https://github.com/qdrant/qdrant/issues/10966",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [
         "bug",
         "accepted",
@@ -1332,10 +1337,30 @@
       "score": 572.8
     },
     {
+      "title": "[Bug] GroupBy filling uses AND instead of OR for mixed string/integer group keys, dropping valid group members",
+      "url": "https://github.com/qdrant/qdrant/issues/11369",
+      "repo": "qdrant/qdrant",
+      "stars": 35567,
+      "labels": [
+        "bug",
+        "accepted"
+      ],
+      "comments": 1,
+      "created_at": "2026-11-03",
+      "category": "research_impl",
+      "category_label": "Research Implementation",
+      "category_color": "#8b5cf6",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 572.8
+    },
+    {
       "title": "`qdrant-edge-py`: `MatchValue(value=True)` is converted to integer `1`, so boolean filters never match",
       "url": "https://github.com/qdrant/qdrant/issues/10846",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [
         "bug"
       ],
@@ -1354,7 +1379,7 @@
       "title": "[Bug] Exact facet returns stale zero-count buckets after the last holder is removed",
       "url": "https://github.com/qdrant/qdrant/issues/11344",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [
         "bug",
         "accepted"
@@ -1371,30 +1396,10 @@
       "score": 572.8
     },
     {
-      "title": "[Bug] RecommendBestScore applies score_threshold in the wrong direction for Euclid distance",
-      "url": "https://github.com/qdrant/qdrant/issues/11349",
-      "repo": "qdrant/qdrant",
-      "stars": 35562,
-      "labels": [
-        "bug",
-        "accepted"
-      ],
-      "comments": 1,
-      "created_at": "2026-11-01",
-      "category": "research_impl",
-      "category_label": "Research Implementation",
-      "category_color": "#8b5cf6",
-      "career_weight": 95,
-      "difficulty": "EASY-MEDIUM",
-      "time_estimate": "2-5 days",
-      "ai_analysis": {},
-      "score": 572.8
-    },
-    {
       "title": "[BUG] `Models` column is empty for runs beyond the first page of `SearchLoggedModels` results",
       "url": "https://github.com/mlflow/mlflow/issues/25766",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [],
       "comments": 0,
       "created_at": "2026-09-10",
@@ -1411,7 +1416,7 @@
       "title": "[Bug]: DefaultEmbeddingFunction reloads the ONNX model on every generate() call",
       "url": "https://github.com/chroma-core/chroma/issues/7791",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [],
       "comments": 0,
       "created_at": "2026-09-23",
@@ -1428,7 +1433,7 @@
       "title": "Intermittent SIGSEGV in chromadb_rust_bindings on macOS ARM64",
       "url": "https://github.com/chroma-core/chroma/issues/7962",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [],
       "comments": 0,
       "created_at": "2026-10-26",
@@ -1445,7 +1450,7 @@
       "title": "[Bug]: delete_collection() leaves orphaned HNSW segment directory after successful deletion",
       "url": "https://github.com/chroma-core/chroma/issues/7853",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [
         "bug"
       ],
@@ -1464,7 +1469,7 @@
       "title": "[Bug]: /api/v2/healthcheck response does not match OpenAPI schema",
       "url": "https://github.com/chroma-core/chroma/issues/7930",
       "repo": "chroma-core/chroma",
-      "stars": 29685,
+      "stars": 29689,
       "labels": [
         "bug"
       ],
@@ -1483,7 +1488,7 @@
       "title": "[Bug-App]: Wandb login page show 404 page not found",
       "url": "https://github.com/wandb/wandb/issues/13154",
       "repo": "wandb/wandb",
-      "stars": 11320,
+      "stars": 11321,
       "labels": [
         "ty:bug",
         "a:app"
@@ -1503,7 +1508,7 @@
       "title": "[Bug]: Integer table columns break after artifact JSON round trip",
       "url": "https://github.com/wandb/wandb/issues/13291",
       "repo": "wandb/wandb",
-      "stars": 11320,
+      "stars": 11321,
       "labels": [],
       "comments": 2,
       "created_at": "2026-11-04",
@@ -1517,10 +1522,27 @@
       "score": 572.0
     },
     {
+      "title": "Fix published types",
+      "url": "https://github.com/huggingface/tokenizers.js/issues/48",
+      "repo": "huggingface/tokenizers.js",
+      "stars": 62,
+      "labels": [],
+      "comments": 5,
+      "created_at": "2026-11-02",
+      "category": "missing_model",
+      "category_label": "Missing Model/Architecture",
+      "category_color": "#6366f1",
+      "career_weight": 95,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 571.7
+    },
+    {
       "title": "[Bug] Oversized Node pool deadlines become 1 ms timeouts",
       "url": "https://github.com/run-llama/liteparse/issues/583",
       "repo": "run-llama/liteparse",
-      "stars": 13045,
+      "stars": 13046,
       "labels": [],
       "comments": 1,
       "created_at": "2026-11-14",
@@ -1537,7 +1559,7 @@
       "title": "[Parsing] Token order / bracket pairing scrambled in native text extraction (--no-ocr)",
       "url": "https://github.com/run-llama/liteparse/issues/503",
       "repo": "run-llama/liteparse",
-      "stars": 13045,
+      "stars": 13046,
       "labels": [],
       "comments": 1,
       "created_at": "2026-10-10",
@@ -1554,7 +1576,7 @@
       "title": "[Bug-App]: Histogram only logs unique values",
       "url": "https://github.com/wandb/wandb/issues/13264",
       "repo": "wandb/wandb",
-      "stars": 11320,
+      "stars": 11321,
       "labels": [
         "ty:bug",
         "a:app"
@@ -1588,27 +1610,10 @@
       "score": 570.9
     },
     {
-      "title": "Pinned chats moved into a Project disappear from the pinned list but still show a star",
-      "url": "https://github.com/mistralai/mistral-vibe/issues/1178",
-      "repo": "mistralai/mistral-vibe",
-      "stars": 5397,
-      "labels": [],
-      "comments": 0,
-      "created_at": "2026-10-04",
-      "category": "research_impl",
-      "category_label": "Research Implementation",
-      "category_color": "#8b5cf6",
-      "career_weight": 95,
-      "difficulty": "EASY-MEDIUM",
-      "time_estimate": "2-5 days",
-      "ai_analysis": {},
-      "score": 570.8
-    },
-    {
       "title": "Bugs found in a full-codebase review",
       "url": "https://github.com/gradio-app/trackio/issues/755",
       "repo": "gradio-app/trackio",
-      "stars": 1781,
+      "stars": 1782,
       "labels": [],
       "comments": 0,
       "created_at": "2026-11-12",
@@ -1625,7 +1630,7 @@
       "title": "[Parsing]  Image identification failed",
       "url": "https://github.com/run-llama/liteparse/issues/425",
       "repo": "run-llama/liteparse",
-      "stars": 13045,
+      "stars": 13046,
       "labels": [
         "bug"
       ],
@@ -1644,7 +1649,7 @@
       "title": "bug: [VS Code extension] Failed to create session on macOS: attempts to create /.vibe",
       "url": "https://github.com/mistralai/mistral-vibe/issues/1041",
       "repo": "mistralai/mistral-vibe",
-      "stars": 5397,
+      "stars": 5399,
       "labels": [
         "bug",
         "VS Code Extension"
@@ -1664,7 +1669,7 @@
       "title": "Dutch (NL) output leaks other languages and non-Latin scripts (Cyrillic inside Dutch words)",
       "url": "https://github.com/mistralai/mistral-vibe/issues/1375",
       "repo": "mistralai/mistral-vibe",
-      "stars": 5397,
+      "stars": 5399,
       "labels": [
         "Prompt Engineering"
       ],
@@ -1683,7 +1688,7 @@
       "title": "Feature request: Add Flexoki Light as a built-in theme (rename flexoki to flexoki-dark)",
       "url": "https://github.com/mistralai/mistral-vibe/issues/1344",
       "repo": "mistralai/mistral-vibe",
-      "stars": 5397,
+      "stars": 5399,
       "labels": [],
       "comments": 1,
       "created_at": "2026-10-26",
@@ -1700,7 +1705,7 @@
       "title": "Mouse-wheel scroll to bottom of transcript interrupts the running agent (Proxmox LXC tty console)",
       "url": "https://github.com/mistralai/mistral-vibe/issues/1407",
       "repo": "mistralai/mistral-vibe",
-      "stars": 5397,
+      "stars": 5399,
       "labels": [],
       "comments": 1,
       "created_at": "2026-11-02",
@@ -1763,25 +1768,6 @@
       "time_estimate": "1-3 days",
       "ai_analysis": {},
       "score": 570.5
-    },
-    {
-      "title": "[Bug] Flicker error",
-      "url": "https://github.com/unslothai/unsloth-zoo/issues/2404",
-      "repo": "unslothai/unsloth-zoo",
-      "stars": 359,
-      "labels": [
-        "bug"
-      ],
-      "comments": 0,
-      "created_at": "2026-11-04",
-      "category": "research_impl",
-      "category_label": "Research Implementation",
-      "category_color": "#8b5cf6",
-      "career_weight": 95,
-      "difficulty": "EASY-MEDIUM",
-      "time_estimate": "2-5 days",
-      "ai_analysis": {},
-      "score": 570.4
     },
     {
       "title": "[Feature] Better Sorting",
@@ -1872,7 +1858,7 @@
       "title": "Performance regression: llama-server high CPU use when generating tokens.",
       "url": "https://github.com/ollama/ollama/issues/18038",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [
         "performance",
         "macos"
@@ -1892,7 +1878,7 @@
       "title": "[dynamo] Meta-issue: torch.compile gaps found via the CPython test suite",
       "url": "https://github.com/pytorch/pytorch/issues/195901",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "triaged",
         "OSS contribution wanted",
@@ -1915,7 +1901,7 @@
       "title": "Jetson Orin Nano 8GB: Gemma 4 E4B OOM with --load-mode dio, while identical configuration succeeds without DIO",
       "url": "https://github.com/ollama/ollama/issues/18396",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [
         "bug"
       ],
@@ -1934,7 +1920,7 @@
       "title": "Default n_threads ignores cgroup CPU quota and cpuset: ~45x throughput collapse in CPU-limited containers",
       "url": "https://github.com/ollama/ollama/issues/17916",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [],
       "comments": 6,
       "created_at": "2026-08-21",
@@ -1951,7 +1937,7 @@
       "title": "Image preprocessing ~20% slower on Linux since v5.18.0: in-place normalize (#48897) causes extra page faults",
       "url": "https://github.com/huggingface/transformers/issues/50100",
       "repo": "huggingface/transformers",
-      "stars": 168996,
+      "stars": 168991,
       "labels": [],
       "comments": 7,
       "created_at": "2026-10-28",
@@ -1968,7 +1954,7 @@
       "title": "Clef / Clef Flash: n_ubatch is forced to n_ctx, so default num_ctx 16384 fails to load (OOM / GGML_ASSERT)",
       "url": "https://github.com/ollama/ollama/issues/18865",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [],
       "comments": 2,
       "created_at": "2026-10-08",
@@ -1985,7 +1971,7 @@
       "title": "mlx: per-layer quantization overrides ignored on import — model fails to load with quantized_matmul shape mismatch",
       "url": "https://github.com/ollama/ollama/issues/18789",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [],
       "comments": 4,
       "created_at": "2026-10-04",
@@ -2002,7 +1988,7 @@
       "title": "Model loading performance regression",
       "url": "https://github.com/ollama/ollama/issues/18373",
       "repo": "ollama/ollama",
-      "stars": 186998,
+      "stars": 187066,
       "labels": [
         "bug"
       ],
@@ -2021,7 +2007,7 @@
       "title": "[MPS][FlexAttention] Potential ~3× forward throughput improvement on M4 (sampled workloads)",
       "url": "https://github.com/pytorch/pytorch/issues/198037",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "module: performance",
         "triaged",
@@ -2046,7 +2032,7 @@
       "title": "[dynamo] torch.compile: StreamContextVariable.python_type() hardcoded to torch.cuda.StreamContext, returns wrong type for XPU/NPU",
       "url": "https://github.com/pytorch/pytorch/issues/200260",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "triaged",
         "actionable",
@@ -2072,7 +2058,7 @@
       "title": "Torch does not optimize matrix multiplication on certain transformer architectures",
       "url": "https://github.com/pytorch/pytorch/issues/194473",
       "repo": "pytorch/pytorch",
-      "stars": 105515,
+      "stars": 105512,
       "labels": [
         "module: performance",
         "triaged",
@@ -2096,7 +2082,7 @@
       "title": "[Feature] Quantization-Aware Distillation (QAD) for PQ2 Models",
       "url": "https://github.com/unslothai/unsloth/issues/16916",
       "repo": "unslothai/unsloth",
-      "stars": 79520,
+      "stars": 79555,
       "labels": [
         "feature request"
       ],
@@ -2115,7 +2101,7 @@
       "title": "[Feature] Support and optimize Nanbeige4.3-33B",
       "url": "https://github.com/unslothai/unsloth/issues/15278",
       "repo": "unslothai/unsloth",
-      "stars": 79520,
+      "stars": 79555,
       "labels": [
         "feature request"
       ],
@@ -2134,7 +2120,7 @@
       "title": "BUG `GridSearchCV(n_jobs=8)` is 10x to 50x slower than in 1.8 on many small tasks: every task pickles the whole callback context tree",
       "url": "https://github.com/scikit-learn/scikit-learn/issues/35104",
       "repo": "scikit-learn/scikit-learn",
-      "stars": 68183,
+      "stars": 68185,
       "labels": [
         "Bug",
         "Performance",
@@ -2156,7 +2142,7 @@
       "title": "PolynomialCountSketch.transform is much slower on sparse input than on the equivalent dense array",
       "url": "https://github.com/scikit-learn/scikit-learn/issues/34920",
       "repo": "scikit-learn/scikit-learn",
-      "stars": 68183,
+      "stars": 68185,
       "labels": [
         "Performance",
         "Low Priority"
@@ -2176,7 +2162,7 @@
       "title": "optimizer_cls_and_kwargs missing from DPO/GRPO/KTO/RLOO trainers (regression of #2302 for RLOO)",
       "url": "https://github.com/huggingface/trl/issues/8127",
       "repo": "huggingface/trl",
-      "stars": 19736,
+      "stars": 19740,
       "labels": [],
       "comments": 8,
       "created_at": "2026-11-05",
@@ -2193,7 +2179,7 @@
       "title": "[Performance] pi0.5: the denoise loop is 86% of a bf16 chunk; static prefix KV + CUDA-graph denoise?",
       "url": "https://github.com/huggingface/lerobot/issues/5148",
       "repo": "huggingface/lerobot",
-      "stars": 28883,
+      "stars": 28893,
       "labels": [
         "bug",
         "enhancement",
@@ -2216,7 +2202,7 @@
       "title": "[Data] Actor pools cannot scale down to zero in multi-step pipelines with downstream bottleneck",
       "url": "https://github.com/ray-project/ray/issues/66196",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "performance",
         "data",
@@ -2237,7 +2223,7 @@
       "title": "[data] A fast upstream actor pool can starve a slow-starting downstream bottleneck",
       "url": "https://github.com/ray-project/ray/issues/65540",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "performance",
         "data",
@@ -2278,7 +2264,7 @@
       "title": "[Core][Serve] Serve controller inefficiently fetches resources info from GCS and degrades performance",
       "url": "https://github.com/ray-project/ray/issues/66912",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "serve",
         "performance",
@@ -2318,7 +2304,7 @@
       "title": "[RLlib] Rejected Learner snapshots can still overwrite optimizer and training-selector state",
       "url": "https://github.com/ray-project/ray/issues/67292",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "rllib",
         "stability",
@@ -2339,7 +2325,7 @@
       "title": "Performance regression: Equivalent filters cause up to 11.384x search latency difference",
       "url": "https://github.com/qdrant/qdrant/issues/10755",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [
         "area/payload-index",
         "parked"
@@ -2359,7 +2345,7 @@
       "title": "Uneven shard sizes from hash ring scale inflate tail latency",
       "url": "https://github.com/qdrant/qdrant/issues/10839",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [],
       "comments": 1,
       "created_at": "2026-09-29",
@@ -2376,7 +2362,7 @@
       "title": "edge: speed up the appendable-segment upload in copy_dir_via",
       "url": "https://github.com/qdrant/qdrant/issues/10433",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [],
       "comments": 3,
       "created_at": "2026-09-01",
@@ -2393,7 +2379,7 @@
       "title": "Filtered scroll with server-side offset pagination silently re-delivers records during optimizer windows (sharded collection, all pages HTTP 200)",
       "url": "https://github.com/qdrant/qdrant/issues/10829",
       "repo": "qdrant/qdrant",
-      "stars": 35562,
+      "stars": 35567,
       "labels": [
         "needs-info",
         "area/collection"
@@ -2413,7 +2399,7 @@
       "title": "[FR] Let the AI Gateway time out faster when a provider is slow to start responding",
       "url": "https://github.com/mlflow/mlflow/issues/26022",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [
         "enhancement",
         "needs author feedback",
@@ -2435,7 +2421,7 @@
       "title": "Add an optional Decision Gate to speed up routine agent decisions",
       "url": "https://github.com/mistralai/mistral-vibe/issues/1147",
       "repo": "mistralai/mistral-vibe",
-      "stars": 5397,
+      "stars": 5399,
       "labels": [],
       "comments": 1,
       "created_at": "2026-09-26",
@@ -2449,10 +2435,29 @@
       "score": 512.2
     },
     {
+      "title": "Native EvalPort import/export for portable evaluation datasets and results",
+      "url": "https://github.com/langchain-ai/langsmith-python/issues/29",
+      "repo": "langchain-ai/langsmith-python",
+      "stars": 25,
+      "labels": [
+        "sdk"
+      ],
+      "comments": 9,
+      "created_at": "2026-08-20",
+      "category": "benchmark",
+      "category_label": "Benchmark",
+      "category_color": "#ec4899",
+      "career_weight": 80,
+      "difficulty": "EASY-MEDIUM",
+      "time_estimate": "2-5 days",
+      "ai_analysis": {},
+      "score": 488.2
+    },
+    {
       "title": "[FR] compare_evaluations: non-regression gate and multiple-comparison correction",
       "url": "https://github.com/mlflow/mlflow/issues/27116",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [
         "enhancement",
         "area/docs",
@@ -2475,7 +2480,7 @@
       "title": "[Data] streaming_split regular and regular_equal benchmarks incorrectly enable early stopping",
       "url": "https://github.com/ray-project/ray/issues/68117",
       "repo": "ray-project/ray",
-      "stars": 44289,
+      "stars": 44291,
       "labels": [
         "bug",
         "triage",
@@ -2499,7 +2504,7 @@
       "title": "EvaluationResult.passed asserts over non-verdict columns: dataset expectations always fail the run, and feedbacks logged without sourceRunId metadata by anyone are counted as this run's assertions",
       "url": "https://github.com/mlflow/mlflow/issues/25701",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [],
       "comments": 2,
       "created_at": "2026-09-08",
@@ -2516,7 +2521,7 @@
       "title": "[FR] Evaluation runs table: column reordering and saved/default views (like Traces V4), and ship the resizable-columns work",
       "url": "https://github.com/mlflow/mlflow/issues/26895",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [
         "enhancement",
         "area/uiux",
@@ -2537,7 +2542,7 @@
       "title": "[FR] Deterministic OWASP Agent Memory Guard trace scorer for memory-defense regression evaluation",
       "url": "https://github.com/mlflow/mlflow/issues/26279",
       "repo": "mlflow/mlflow",
-      "stars": 28816,
+      "stars": 28820,
       "labels": [
         "enhancement",
         "area/tracing",
@@ -2576,15 +2581,13 @@
       "score": 484.2
     },
     {
-      "title": "Native EvalPort import/export for portable evaluation datasets and results",
-      "url": "https://github.com/langchain-ai/langsmith-python/issues/29",
-      "repo": "langchain-ai/langsmith-python",
-      "stars": 25,
-      "labels": [
-        "sdk"
-      ],
+      "title": "Proposal: replace the deprecated text-to-SQL notebook with an execution-accuracy evaluation on BIRD",
+      "url": "https://github.com/mistralai/cookbook/issues/446",
+      "repo": "mistralai/cookbook",
+      "stars": 2366,
+      "labels": [],
       "comments": 1,
-      "created_at": "2026-08-20",
+      "created_at": "2026-11-09",
       "category": "benchmark",
       "category_label": "Benchmark",
       "category_color": "#ec4899",
@@ -2592,7 +2595,7 @@
       "difficulty": "EASY-MEDIUM",
       "time_estimate": "2-5 days",
       "ai_analysis": {},
-      "score": 482.7
+      "score": 482.8
     }
   ]
 }
